@@ -41,7 +41,6 @@ async function handleEvent(event) {
   let options = {}
   // Match a URL which should redirect from the map
 
-
   /**
    * You can add custom logic to how we fetch your assets
    * by configuring the function `mapRequestToAsset`

@@ -1,0 +1,53 @@
+baseURL = "https://naxxfish.net/"
+description = "broadcast systems engineer, developer, photographer, maker and hobby collector"
+languageCode = "en-gb"
+theme = "terminal"
+paginate = "5"
+
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "blue"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+  # show selector to switch language
+  showLanguageSelector = false
+  # set theme to full screen width
+  fullWidthTheme = false
+  # center theme with default width
+  centerTheme = false
+  # set a custom favicon (default is a `themeColor` square)
+  favicon = "cropped-siteicon.png"
+  description = "broadcast systems engineer, developer, photographer, maker and hobby collector"
+
+[outputFormats]
+  [outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed/index"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "naxxfish"
+    subtitle = "broadcast systems engineer, developer, photographer, maker and hobby collector"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "naxxfish"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "wish-list"
+        name = "Wish List"
+        url = "/wish-list"

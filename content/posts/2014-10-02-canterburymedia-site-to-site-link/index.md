@@ -4,7 +4,6 @@ author: naxxfish
 type: posts
 date: 2014-10-02T11:36:36+00:00
 url: /2014/10/02/canterburymedia-site-to-site-link/
-featured_image: /wp-content/uploads/2014/10/image07.jpg
 categories:
   - Technology
 
@@ -21,27 +20,27 @@ Traditionally, you might use a leased line type circuit (ATM or Ethernet, or MPL
 
 [Ubiquiti][2] have been offering a range of very capable, and disruptively priced, Ethernet Radios for some time now.  CSR has even used these radios in the past to provide connectivity to remote locations for Outside Broadcasts, with great success.  So it was a natural step to make a permanent installation to link our two, reasonably geographically close, studios together.
 
-{{< figure src="/wp-content/uploads/2014/09/5GHz-link-Network-Diagram-public.png">}}
+{{< figure style="background-color:#ffffff; padding:1em" src="5GHz-link-Network-Diagram-public.png" caption="Two networks connected together via 5GHz link" position="center" >}}
 
 The link consists of two Ubiquiti Nanobridge M5 radios, each affixed to the roofs of the respective host buildings.  We can configure them to transport VLAN trunks, allowing us to not only transport Livewire streams, but also segregated control and other data over the link.  The appropriate QoS settings in the radios and the Cisco switches at each facility ensures that Livewire data is given priority, so that real time audio is possible and reliable.
 
 In order to prove the link was possible, we ran some simulations in [Radio Mobile][3] using the specifications of the radios to get an idea of whether the signal would be good in the area we needed.  Turns out we should get a pretty good signal between the two sites!  The simulation was run with an omnidirectional antenna, assuming that we can rotate it as required &ndash; the below plot shows areas where a realiable connection is feasible.
 
-{{< figure src="/wp-content/uploads/2014/10/image07.jpg" >}}
+{{< figure src="image07.jpg" position="center" caption="Radial plot of link quality from the central point - anything greater than -60dBm (shaded) would work" >}}
 
 In the past we had performed a link analysis also for the specific points &ndash; not dissimilar to one which we performed for a link to Merton Farm some years ago (pictured below)
 
-{{< figure src="/wp-content/uploads/2014/10/image01.png" >}}
+{{< figure src="image01.png" position="center" caption="Link analysis between Eliot College and Merton Farm" >}}
 
 When we ran the link analysis for this particular link, it showed that there was some &#8220;land clutter&#8221; in the way (trees, cathedrals, that sort of thing), however providing we had enough height a link should be possible.
 
 The first radio was installed on an old TV aerial pole on Eliot College roof.  There are two CAT5e runs from the roof to the CSR FM's comms room in the basement, which we used to connect to the equipment.  Care was taken to ensure that the equipment is not obviously visible from the ground.
 
-{{< figure src="/wp-content/uploads/2014/10/20130722_100017.jpg" >}}
+{{< figure src="20130722_100017.jpg"  position="center" caption="Nanobridge affixed to the roof of Eliot college, next to the Sky reciever dishes" >}}
 
 The second was installed on the roof of the Erasmus building, at Christ Church University, on an existing pole for our FM aerial.  This turns out to be a very neat installation.
 
-{{< figure src="/wp-content/uploads/2014/09/2014-09-22-18.33.32-1.jpg" >}}
+{{< figure src="2014-09-22-18.33.32-1.jpg" position="center" caption="Nanobridge on the roof (top) of the Erasmus building next to the FM aerial" >}}
 
 After alignment, we are able to get a link reasonably good link between the sites!
 

@@ -22,13 +22,13 @@ However, whilst I'm not going vegan overnight, this caused me to think a bit abo
 
 The first one that came to mind was clothing. My present shoe of choice is [Converse][4]. However, as it turns out they're owned by [Nike][5] &ndash; a company I'm not too keen on in terms of ethical practices. So I looked into what alternatives were out there, as my current shoes are in need of replacement (another thing I have come to dislike about Converse trainers &ndash; they're not especially long lasting!). I checked out the [Ethical Consumer page on Shoes][6], which lists a few suppliers they've deemed to have the best credentials. 
 
-{{< figure src="/images/unswoosher.jpg" position="center" >}}
+{{< figure src="unswoosher.jpg" position="center" >}}
 
 The [Blackspot Unswoosher][7] sat on top of that list. I generally agree with the anti-corporate message &ndash; I mean, I supported [buying all of the ad space in Clapham Common tube station for two weeks and replacing them with pictures of cats][8]. However, I'm not a massive fan of the style, which is a shame! 
 
 I ended up skipping a few down and having a look into [Po-zu][9], who have a pretty big selection of functionally similar shoes to Converse &ndash; including several Star Wars licensed ones&#8230;. argh, couldn't resist! 
 
-{{< figure src="/images/R2D2_Side_clean_sq_shopify_grande.jpg" caption="R2D2 shoes!" position="center" >}}
+{{< figure src="R2D2_Side_clean_sq_shopify_grande.jpg" caption="R2D2 shoes!" position="center" >}}
 
 Whilst I'm annoyed that the Star Wars franchise is now owned by Disney, and I don't agree with all of their business practices (they are completely enormous, so [they're bound to slip up somewhere][10]), the fact that the item itself uses [Fair Rubber][11], and sustainable materials like coconut husk and organic cotton (which, I hope, is grown somewhere with a plentiful source of water!), I think I can count that as a win. 
 
@@ -36,7 +36,7 @@ Whilst I'm annoyed that the Star Wars franchise is now owned by Disney, and I do
 
 Turning to tops, I can never have too many t-shirts. Well, I probably can, but it's kind of my thing. That being the case, I'd like it to be my _sustainable_ thing. So I went in search of companies that made t-shirts ethically.
 
-{{< figure src="/images/rapanui-tshirt.png" caption="Rapanui Thunder T-shirt" >}}
+{{< figure src="rapanui-tshirt.png" caption="Rapanui Thunder T-shirt" position="center" >}}
 
 I really like Rapanui. [Their story page][12] tells a tale of a plucky &#8220;startup&#8221; from the Isle of Wight trying to change the fashion world, by making their clothes traceable and made with sustainable sources and renewable energy. They've done so well at applying technology to their production chain that they're [providing it as a service][13] via print on demand. And, even better, when your t-shirt is worn out, they let you [send it back to them to be re-manufactured][14] &ndash; an initiative I very much agree with. I believe all products should be engineered to have secondary uses after they can no longer perform their primary function. And, to top it all off, their designs are pretty awesome too. They also do a bunch of other clothes too&#8230; hoodies, beach towels, underwear&#8230; they've earned a few spots on [my wishlist][15].
 

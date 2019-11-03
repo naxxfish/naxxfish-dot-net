@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/naxxfish
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://naxxfish.net
+  * I am naxxfish (https://keybase.io/naxxfish) on keybase.
+  * I have a public key with fingerprint B09B 1296 C070 C2A4 A777  D44F BC8E B1C3 BC6D 3E2E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01014a355e3218f59a37d2c60d8e3a4e9ade18ad3bd65f7ef91ea36347a0394ea99f0a",
+      "fingerprint": "b09b1296c070c2a4a777d44fbc8eb1c3bc6d3e2e",
+      "host": "keybase.io",
+      "key_id": "bc8eb1c3bc6d3e2e",
+      "kid": "01014a355e3218f59a37d2c60d8e3a4e9ade18ad3bd65f7ef91ea36347a0394ea99f0a",
+      "uid": "5b220e7336a3e087e94002586913c119",
+      "username": "naxxfish"
+    },
+    "service": {
+      "hostname": "naxxfish.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1572800028,
+  "expire_in": 157680000,
+  "prev": "23c3bcdfdb132811f40ec02d0f808c808bfa2c30e94590b9245d11d4d9a7564e",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUltIFUEYPqdjmQeijCgLrFxIC83mstdTmYKFT4r0okUcZndmdSv3HM+uesRL
+D0lRVPhQVkIRRRRSJkHhS6gVFVlURpeHim4WkhmVZeGlZiVfoscehmG++b5vvv9j
+mmcFfEH/4S8Fi2p6h3P8vQO6b0vXjMw6QY/QWiFUJ2xjkxvbTpnjhrdZVAgJAAIo
+EixJDCOompJGsEKRIQOqMkxEphHKoEoo1qksmQozNcgIlrGoEIA1kRFNMwERsgTT
+sstYLBqzbJfb6kDTIdJkAyjAQEQkiqJQUTR1Q2U6NLBuyBQzxLiwPOJ4Ch5OJw7L
+tiIc44fwZLx/8P9z7qpJO0lHCDAFY5lgBlSFaSIASFJlDWIDQs0jOixmkwrG2TaJ
+x03LKRcasgSOVlsG84r1JvmLkW0zl2ujsYgbMSLb+U2560adkKd0a6MetYbp4T8m
+Yd2yKe+RK6pZzLEithCCnGm4lucKJQWpgOdSswQWj1oxFrbsSVj2YOC9w6q5JcJe
+Y7TUpDrESIXQFAEzAKLAVIFq8KWbBBkY8DElDegaEiUKIRWpRhRJFr2aHVZpR4QQ
+EnlQUsZNHavMJm5VjAkNwT1+nODzB32p89MStCVrzrUVfC/ds+lly9Tnmz7N+3m+
+YNKcKSRVSZxAIyfrh0Ya8+feOJeUX9F/z2ho9cWfXTm4avnazQF0/kT+aM7K9qE0
+J5xXsS8z/e3g0tmdicLNjJbWk/7rXTv77px+mtv4dOOr0ynOraSxoqI2ZWfn5f4H
+F/ddXP3mbvDn4KPBTx8bP+wSHxcW378tvx8XfRMHSjY/d9P6ygvw6M9nR85k7n99
+tEvueLtuRfvLH8PHzzLL2dEeCCQX1ve8SskYKH338FjRxIZDeb9m7m4d+ZwVDPQ9
+udq8dUYF7Vy/bOGsyq83xhc0sZlDxerDF5fSnyR/y+keXhz/9uMCaFwl2bcTr+wG
+HU1yZc+puWMlfbl111Kr5pnFKdcSu2lBYWHuyN7f
+=HsDP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/naxxfish
+
+==================================================================

@@ -9,7 +9,7 @@ sharing_disabled:
 ---
 **Hi, I'm Chris.&nbsp;**
 
-I'm mostly from London, UK &ndash; which is where I presently live and work for an international radio broadcaster (views expressed here are entirely my own&#8230;) as a Principal Systems Engineer in the area of radio studio technology.
+I'm mostly from London, UK &ndash; which is where I presently live and work for an international broadcaster (views expressed here are entirely my own&#8230;) as a Principal Systems Engineer in the area of radio studio technology.
 
 I'm an aspiring (but not very good) [photographer][1]&nbsp;.
 
@@ -25,9 +25,7 @@ I've been a contributor to [Helen Zaltzman's][7] podcast [The Allusionist][8], a
 
 I was one of the founders of the [University of Kent Tinkering Society (tinkersoc)][10]
 
-My site icon is a [modified emoji 1f40b (&nbsp;<span class="emoji">🐋&nbsp;)</span>
-  
-][11] 
+My site icon is a [modified emoji 1f40b (🐋)</span>][11] 
 
 I enjoy a good list (evidently)
 

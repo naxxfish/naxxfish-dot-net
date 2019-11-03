@@ -78,7 +78,7 @@ So, PCB design, I needed to get them produced.  I had a few options, but I had 
 
 This is what I was shipped from OSHPark:
 
-{{< figure src="/wp-content/uploads/2014/02/20140130_102956.jpg" position="center" caption="Beautiful purple PCB goodness" >}}
+{{< figure src="20140130_102956.jpg" position="center" caption="Beautiful purple PCB goodness" >}}
 
 Gorgeous!  I'm very pleased with the quality.  The routing is very smooth, the soldermask is very consistent. The registration on the silkscreen was a little off, but that's to be expected really.
 
@@ -86,13 +86,13 @@ After a little filing around the edges to make up for the snap sprues, and the s
 
 Some soldering later:
 
-{{< figure src="/wp-content/uploads/2014/02/20140202_182432.jpg" position="center" >}}
+{{< figure src="20140202_182432.jpg" position="center" >}}
 
 In this side shot, you can see how the hex-spacer works to let you screw the antenna into the lid, and where the pot is attached to the board on it's back.
 
-{{< figure src="/wp-content/uploads/2014/02/20140202_182459.jpg" position="center" >}}
+{{< figure src="20140202_182459.jpg" position="center" >}}
 
-{{< figure src="/wp-content/uploads/2014/02/20140202_182511.jpg" position="center" >}}
+{{< figure src="20140202_182511.jpg" position="center" >}}
 
 The pot was secured to the PCB using normal self adhesive pads &mdash; mainly just to stop it putting strain on the pads.  The shaft on the pot could do with being a little shorter &mdash; so that the knob doesn't float quite so far away from the panel.
 
@@ -100,11 +100,11 @@ Note the slide switch.  I put it on the wrong side &#8230; doh!  It interfered
 
 The LEDs point up the board, allowing the solder connections to reflect the light to produce an interesting pattern when the device is on.
 
-{{< figure src="/wp-content/uploads/2014/02/20140202_172345.jpg" position="center" >}}
+{{< figure src="20140202_172345.jpg" position="center" >}}
 
 Overall, it looks like this:
 
-{{< figure src="/wp-content/uploads/2014/02/20140202_172330.jpg" position="center" >}}
+{{< figure src="20140202_172330.jpg" position="center" >}}
 
 After some fairly tweaky calibration you can control the pitch from about 12 inches away.  If you are grounded well, then this works even better and you get more range.  It produces a mostly sawy sine wave (pretty much an RC oscillator sort of curve really, not surprisingly).  I did try to put a RC low pass filter on the output (by putting a 1uF cap between the output and ground) to see if that'd make the output more siney &mdash; but unfortunately it did attenuate the output rather significantly at the frequencies we were interested in (between 0 and 1500Hz ish).
 

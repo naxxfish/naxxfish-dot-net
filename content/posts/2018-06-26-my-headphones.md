@@ -4,10 +4,11 @@ author: naxxfish
 type: posts
 date: 2018-06-26T22:56:26+00:00
 url: /2018/06/26/my-headphones/
-featured_image: /wp-content/uploads/2018/06/IMG_0834.jpg
-categories:
-  - Electronics
-  - Personal
+
+tags:
+  - everydaycary
+  - headphones
+  - audio
 
 ---
 {{< figure src="/wp-content/uploads/2018/06/IMG_0834.jpg" position="center" >}}

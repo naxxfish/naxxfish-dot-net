@@ -4,12 +4,12 @@ author: naxxfish
 type: posts
 date: 2018-03-14T22:04:24+00:00
 url: /2018/03/14/recording-gps-tracks-with-gpslogger-on-android-for-realtime-trains/
-featured_image: /wp-content/uploads/2018/03/20170918_171158-1200x900.jpg
-categories:
-  - Technology
+tags:
+  - railways
+  - opendata
 
 ---
-{{< figure src="/wp-content/uploads/2018/03/20170918_171158-1200x900.jpg" caption="A [Class 800][1] test train set spotted at Paddington shortly before the launch of the Intercity 125 replacements in October 2017, operated by GWR and Virgin East Coast" >}}
+{{< figure src="20170918_171158.jpg" caption="A Class 800 test train set spotted at Paddington shortly before the launch of the Intercity 125 replacements in October 2017, operated by GWR and Virgin East Coast" >}}
 
 
 As a long time user of [Realtimetrains.co.uk][2] (which is where you should go for all your real time train tracking needs in the UK), and someone with an appreciation of Open Rail Data (having [used it myself][3]), I jumped at the chance of helping their development.  They've put out an appeal to [record GPS tracks][4] of train services that you travel on with the link to the service on the application.
@@ -19,7 +19,7 @@ As a long time user of [Realtimetrains.co.uk][2] (which is where you should go f
 > In order to validate this effort, we either have to do the manual task with a watch or collect a large dataset of GPS traces to compare against our dataset. The more data we have will allow us to improve the end product.
 
 Which is awesome.  I wanted to contribute. I found a suitable app for Android called [GPSlogger][5] which seemed to fit the bill.  It has quite a few settings, so I thought I'd write a quick guide on what I've used to successfully generate a working track for a service.
-
+<!--more-->
 Wanting to make sure the data I produced was as useful and error free as possible, I asked [@Realtimetrains][6] for some guidance
 
 <blockquote class="twitter-tweet" data-width="550" data-dnt="true">
@@ -48,11 +48,11 @@ Wanting to make sure the data I produced was as useful and error free as possibl
 
 I have put together some settings that should help achieve these goals using GPSlogger.
 
-<!--more-->
+
 
 One of the main things is to make sure that we are recording the data frequently &ndash; **which isn't necessarily great for battery life, so be wary of this on long journeys! **
 
-{{< figure src="/wp-content/uploads/2018/03/Screenshot_20180314-205353.png" >}}
+{{< figure src="Screenshot_20180314-205353.png" >}}
 
 First of all, hit the hamburger menu (stack?), and go into &#8230;
 
@@ -90,7 +90,7 @@ In **Location Providers**, have:
 
 Set the **Logging interval** to 0 (zero) (as frequently as possible).  You'll need this to ensure your GPX file contains enough points!
 
-{{< figure src="/wp-content/uploads/2018/03/Screenshot_20180314-205427.png" >}}
+{{< figure src="Screenshot_20180314-205427.png" >}}
 
 Set **Distance Filter** to 0 (in order to log new points even when you are stationary), and ensure that **Don't log if I'm not moving** is turned **OFF** (the fact you are not moving at a particular time is useful information!)
 

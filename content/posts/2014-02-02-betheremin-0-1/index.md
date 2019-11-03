@@ -68,8 +68,7 @@ For mounting the antenna, I used a hex profile spacer and a machine head screw, 
 
 After many hours of careful routing, tweaking and massaging, I had a PCB ready to go:
 
-
-{{< figure src="/wp-content/uploads/2014/02/pcb_final.png" alt="Final PCB" caption="The final PCB layout in KiCAD">}}
+{{< img src="pcb_final.png" alt="The final PCB layout in KiCAD" >}}
 
 There's a power slide switch at the top side, which looks like it's going to interfere with the battery box!  But, I thought, why not put that on the other side of the board, since it'll work exactly the same.  Remember that &#8230;.
 

@@ -1,0 +1,9 @@
+name = "public"
+type = "webpack"
+account_id = "---your-account_id---"
+zone_id = "---your-zone_id---"
+route = "naxxfish.net/*"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"

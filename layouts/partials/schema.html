@@ -1,0 +1,64 @@
+    {{ if eq .IsHome true }}
+    {{ $list := (.Site.RegularPages) }}
+    {{ $len := (len $list) }}
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": 
+            [
+                {
+                    "@type": "ListItem",
+                        "item": {
+                            "@id": "{{ .Site.BaseURL }}",
+                            "name": "Home"
+                        },
+                        "position": 1
+                },{{  range $index, $element := $list }} 
+                {
+                "@type": "ListItem",
+                    "item": {
+                        "@id": {{ .Permalink }},
+                        "name": "{{ .Title }}"
+                    },
+                    "position": {{ (add $index 2) }}
+                }{{ if ne (add $index 1) $len }},{{ end }}{{ end }}
+            ]
+        }
+    </script>
+    {{ end }}
+    {{ if eq .Section "posts" }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ .Title }},
+      "datePublished": {{ .PublishDate }},
+      "dateModified": {{ .Lastmod }},
+      "author": 
+        {{ .Site.Data.person }}
+      ,
+      "image": {{ if .Page.Params.featuredImage }}{{ .Page.Params.featuredImage | absURL  }}{{ else }}{{ .Permalink  }}{{ end }},
+      "wordcount": {{ .Plain | countwords }},
+      "timeRequired": "PT{{ .ReadingTime }}M",
+      "mainEntityOfPage": { "@type": "WebPage" },
+       "publisher": {
+        "@type": "Organization",
+        "name": {{ .Site.Params.header }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": {{ .Site.Params.logoUrl }}
+        }
+      },
+      "description": {{ .Summary | plainify | safeHTML }},
+      "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
+      "articleBody": {{ .Plain }}
+    }
+</script>
+    {{ end }}{{ if eq .Page.Title "about" }}
+    <script type="application/ld+json">
+    {{ .Site.Data.person }}
+</script>
+    {{ end }}
+    
+  

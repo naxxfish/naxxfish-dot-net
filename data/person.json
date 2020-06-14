@@ -1,0 +1,63 @@
+{
+    "@context": "https://schema.org/",
+    "@id": "https://naxxfish.net/about",
+    "@type": "Person",
+    "image": "https://naxxfish.net/images/naxxfish-wuthering-bytes.jpg",
+    "nationality": "British",
+    "name": "Chris Roberts",
+    "alternateName": "naxxfish",
+    "birthPlace": {
+        "@type": "Place",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "London",
+            "addressCountry": "United Kingdom"
+        }
+    },
+    "homeLocation": {
+        "@type": "Place",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "London",
+            "addressCountry": "United Kingdom"
+        }
+    },
+    "memberOf": [
+        {
+            "@type": "Organization",
+            "name": "Audio Engineering Society",
+            "url": "http://www.aes.org/"
+        }
+    ],
+    "knowsAbout": [
+        "https://en.wikipedia.org/wiki/Software_engineering",
+        "https://en.wikipedia.org/wiki/Broadcast_engineering",
+        "https://en.wikipedia.org/wiki/Computer_engineering",
+        "https://en.wikipedia.org/wiki/Embedded_system",
+        "https://en.wikipedia.org/wiki/Serverless_computing",
+        "https://en.wikipedia.org/wiki/Radio_broadcasting",
+        "https://en.wikipedia.org/wiki/Audio_engineer"
+    ],
+    "callsign": "M7NXF",
+    "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Kent",
+        "sameAs": [
+            "https://www.kent.ac.uk/",
+            "https://en.wikipedia.org/wiki/University_of_Kent"
+        ]
+    },
+    "gender": "male",
+    "description": "Broadcast Technologist",
+    "jobTitle": "Product Manager",
+    "worksFor": {
+        "@type": "Organization",
+        "name": "British Broadcasting Corporation",
+        "sameAs": "https://www.bbc.co.uk/"
+    },
+    "sameAs": [
+        "https://www.github.com/naxxfish",
+        "https://instagram.com/naxxfish",
+        "https://naxxfish.photography"
+    ]
+}

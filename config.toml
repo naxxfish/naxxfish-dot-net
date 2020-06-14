@@ -6,6 +6,19 @@ paginate = "5"
 
 
 [params]
+  author = "Chris Roberts"
+  header = "Broadcast Systems Engineer, Developer, Maker and Hobby collector"
+  logoUrl = "https://naxxfish.net/cropped-siteicon.png"
+  twitter = "https://twitter.com/naxxfish/"
+  instagram = "https://www.instagram.com/naxxfish/"
+  github = "http://github.com/naxxfish"
+  alumniOf = "University of Kent"
+  birthplace = "London, UK"
+  nationality = "British"
+  jobTitle = "Product Manager"
+  gender = "male"
+  email = "chris@naxxfish.net"
+  height = "173 cm"
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # ["orange", "blue", "red", "green", "pink"]
@@ -17,10 +30,10 @@ paginate = "5"
   # set theme to full screen width
   fullWidthTheme = false
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
   # set a custom favicon (default is a `themeColor` square)
   favicon = "cropped-siteicon.png"
-  description = "broadcast systems engineer, developer, photographer, maker and hobby collector"
+  description = "systems engineer, software developer, photographer, maker and hobby collector"
 
 [outputFormats]
   [outputFormats.RSS]
@@ -31,9 +44,9 @@ paginate = "5"
   [languages.en]
     languageName = "English"
     title = "naxxfish"
-    subtitle = "broadcast systems engineer, developer, photographer, maker and hobby collector"
-    keywords = ""
-    copyright = ""
+    subtitle = "systems engineer, software developer, photographer, maker and hobby collector"
+    keywords = "software engineer developer tech"
+    copyright = "Chris Roberts"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
@@ -52,6 +65,10 @@ paginate = "5"
         name = "Wish List"
         url = "/wish-list"
       [[languages.en.menu.main]]
-        identifier = "instagram"
-        name = "Instagram"
-        url = "https://www.instagram.com/naxxfish/"
+        identifier = "github"
+        name = "Github"
+        url = "https://www.github.com/naxxfish/"
+      [[languages.en.menu.main]]
+        identifier = "photography"
+        name = "My Photography"
+        url = "https://naxxfish.photography"

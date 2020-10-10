@@ -1,5 +1,5 @@
 baseURL = "https://naxxfish.net/"
-description = "broadcast systems engineer, developer, photographer, maker and hobby collector"
+description = "software systems engineer, architect and product manager"
 languageCode = "en-gb"
 theme = "terminal"
 paginate = "5"
@@ -7,7 +7,7 @@ paginate = "5"
 
 [params]
   author = "Chris Roberts"
-  header = "Broadcast Systems Engineer, Developer, Maker and Hobby collector"
+  header = "Software Systems Engineer, Architect and Product Manager"
   logoUrl = "https://naxxfish.net/cropped-siteicon.png"
   twitter = "https://twitter.com/naxxfish/"
   instagram = "https://www.instagram.com/naxxfish/"
@@ -33,7 +33,7 @@ paginate = "5"
   centerTheme = true
   # set a custom favicon (default is a `themeColor` square)
   favicon = "cropped-siteicon.png"
-  description = "systems engineer, software developer, photographer, maker and hobby collector"
+  description = "software systems engineer, architect and product manager"
 
 [outputFormats]
   [outputFormats.RSS]
@@ -44,7 +44,7 @@ paginate = "5"
   [languages.en]
     languageName = "English"
     title = "naxxfish"
-    subtitle = "systems engineer, software developer, photographer, maker and hobby collector"
+    subtitle = "software systems engineer, architect and product manager"
     keywords = "software engineer developer tech"
     copyright = "Chris Roberts"
     menuMore = "Show more"

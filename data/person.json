@@ -2,7 +2,11 @@
     "@context": "https://schema.org/",
     "@id": "https://naxxfish.net/about",
     "@type": "Person",
-    "image": "https://naxxfish.net/images/naxxfish-wuthering-bytes.jpg",
+    "image": [
+        "https://naxxfish.net/images/naxxfish-portrait/1x1/naxxfish-portrait.jpg",
+        "https://naxxfish.net/images/naxxfish-portrait/16x9/naxxfish-portrait.jpg",
+        "https://naxxfish.net/images/naxxfish-portrait/4x3/naxxfish-portrait.jpg"
+    ],
     "nationality": "British",
     "name": "Chris Roberts",
     "alternateName": "naxxfish",

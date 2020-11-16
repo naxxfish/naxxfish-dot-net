@@ -3,7 +3,6 @@ type = "webpack"
 account_id = "---your-account_id---"
 zone_id = "---your-zone_id---"
 route = "naxxfish.net/*"
-# test
 
 [site]
 bucket = "./public"

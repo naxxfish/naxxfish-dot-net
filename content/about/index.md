@@ -9,33 +9,33 @@ sharing_disabled:
 ---
 **👋🏻 Hi, I'm Chris.**
 
-Nice to meet you! I'm from London, UK &ndash; which is where I presently live and work for an international broadcaster (views expressed here are entirely my own, etc.) as a Product Manager in the area of radio metadata workflows.
+Nice to meet you! I'm from London, UK &ndash; which is where I presently live and work for [Citymapper](https://citymapper.com). 
 
-I'm an aspiring (but not especially good) [photographer][1].
+* I'm a [photographer][1], and have published a [series of zines about phone boxes](https://parallaxphotographic.coop/shop/chris-roberts-kiosk-volumes-1-and-2/).
 
-I often [code][2].
+* I [code][2] for a living.
 
-I hold a UK Amateur Radio Operator License, callsign M7NXF.
+* I sometimes build electronics for fun.
 
-I'm the owner of both a beard, and a ponytail.
+* I hold a UK Amateur Radio Operator License, callsign M7NXF.
 
-You'll often find me at [An Evening of Unnecessary Detail][3]. Because I don't get enough of unnecessary detail during the day, apparently.
+* I'm the owner of both a beard, and a ponytail.
 
-I once helped (at least, mostly helped) [Matt Parker][4] [build a computer out of Dominos][5] (you can see me at [3:14][6])
+* You'd ordinarily frequently find me at [An Evening of Unnecessary Detail][3]. Because I don't get enough of unnecessary detail during the day, apparently.
 
-I've been a contributor to [Helen Zaltzman's][7] podcast [The Allusionist][8], and was briefly in [Episode 75 of No Such Thing as a Fish][9].
+* I once helped (at least, mostly helped) [Matt Parker][4] [build a computer out of Dominos][5] (you can see me at [3:14][6])
 
-I was one of the founders of the [University of Kent Tinkering Society (tinkersoc)][10]
+* I've been a contributor to [Helen Zaltzman's][7] podcast [The Allusionist][8], and was briefly in [Episode 75 of No Such Thing as a Fish][9].
 
-I'm an advocate of digital rights, privacy and free speech online, and am a member of the [Open Rights Group][12]
+* I was one of the founders of the [University of Kent Tinkering Society (tinkersoc)][10]
 
-I'm a member of the [Audio Engineering Society](http://www.aes.org/).
+* I'm an advocate of digital rights, privacy and free speech online, and am a member of the [Open Rights Group][12]
 
-My site icon is a [modified emoji 1f40b (🐋)</span>][11]
+* My site icon is a [modified emoji 1f40b (🐋)</span>][11]
 
-Whilst [I am on twitter](https://twitter.com/naxxfish), I prefer [decentralised social media](https://mastodon.technology/@naxxfish)
+* Whilst [I am on twitter](https://twitter.com/naxxfish), I prefer [decentralised social media](https://mastodon.technology/@naxxfish)
 
-I enjoy a good list (evidently)
+* I enjoy a good list (evidently)
 
  [1]: https://naxxfish.photography
  [2]: https://github.com/naxxfish/

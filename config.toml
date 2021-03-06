@@ -9,7 +9,6 @@ paginate = "5"
   author = "Chris Roberts"
   header = "Software Systems Engineer, Architect and Product Manager"
   logoUrl = "https://naxxfish.net/cropped-siteicon.png"
-  twitter = "https://twitter.com/naxxfish/"
   instagram = "https://www.instagram.com/naxxfish/"
   github = "http://github.com/naxxfish"
   alumniOf = "University of Kent"
@@ -34,6 +33,13 @@ paginate = "5"
   # set a custom favicon (default is a `themeColor` square)
   favicon = "cropped-siteicon.png"
   description = "software systems engineer, architect and product manager"
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = "naxxfish"
+  site = "naxxfish.net"
 
 [outputFormats]
   [outputFormats.RSS]

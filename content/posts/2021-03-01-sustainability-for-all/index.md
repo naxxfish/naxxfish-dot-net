@@ -6,13 +6,15 @@ date: 2021-03-01T22:00:00+00:00
 url: /affordable-sustainability-2021
 categories:
   - Environment
-draft: falsed
+draft: false
 summary: I found myself looking for a better option for tying my hair into a ponytail, and this took me into a rabbit hole that made me wonder whether the ethical sustainable goods movement is really the answer to our ethical and environment problems.
 ---
 
 I found myself looking for a better option for tying my hair up in a ponytail. It's something I've been doing for over a decade, and isn't likely to change soon. But the ties I've been buying keep breaking - it doesn't matter what I do, they just get looser and looser until they don't hold my hair properly, and then they snap.  So I started looking for reusable, robust products designed to fulfil this purpose, and I came across [these hair ties from Tabitha Eve](https://www.tabithaeve.co.uk/products/nobbles-plastic-free-hair-ties). They come in a pack of 5, and their RRP is **£10** (although they're on sale for £6 currently). The ones I get normally are about £3 for a pack of 18 from Superdrug. 
 
 This prompted a train of thought - as much as I support sustainable and ethical consumerism - is the hope that one day all consumers will be ethical consumers completely detatched from reality? 
+
+<!--more-->
 
 The problematic truth is, unsustainable and unethical products are - often - more finaicnally efficient than their 'sustaintable' alternatives in the short term - and for many people, short term efficiency is the only real factor in their purchasing decisions as it is a choice between something cheap or nothing at all. I am quite fortunate in that I have the luxury of being relatively unconstrained on how much I spend on things (within reason). But that's not a reality for most people - including myself in the past.
 

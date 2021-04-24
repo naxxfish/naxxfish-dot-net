@@ -17,6 +17,8 @@ Drone safety is a topic which has had particular interest after [recent incident
 
 With tech giants like Amazon developing automated drone-delivery systems, the number of drones in the skies is likely to increase - and obviously law-makers are being pressured to make sure that this is a safe future.  
 
+<!--more-->
+
 There are two main requirements which have become apparent: the ability for other users of the sky to be aware of other objects using the same space, and the ability for law enforcement to trace pilots of unmanned systems who are breaking the law. The Federal Avaition Agency in the USA have recently released a [Notice of Proposed Rule Making](https://www.federalregister.gov/documents/2019/12/31/2019-28100/remote-identification-of-unmanned-aircraft-systems) which sets out their approach to achieve this.
 
 # Collision avoidance

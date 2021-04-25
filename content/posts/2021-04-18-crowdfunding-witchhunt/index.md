@@ -70,11 +70,11 @@ Should they have refunded their backers of the SCiO who didn't get their reward?
 
 ![Your responsibility](creator-responsibility.png)
 
-Are there any backers who have not had their device, and also not been refunded? In fact, yes, Consumer Electronics informs me that they have delivered 12,000 of their devices to backers and offered anyone who didn't recieve their device a refund. If there are backers out there that haven't recieved their reward or a refund, that would point to malpractice in their administration more than anything - but that does not seem to be the case. 
+Are there any backers who have not had their device, and also not been refunded? **No** - Consumer Electronics informs me that they have delivered 12,000 of their devices to backers and offered anyone who didn't recieve their device a refund. If there are backers out there that haven't recieved their reward or a refund, that would point to malpractice in their administration more than anything - but that does not seem to be the case. 
 
 Does the device do what backers expected it to do? No, probably not. If the marketing suggested it was a magic trichorder able to accurately measure the nutrion content of anything you scanned with it - that was overly optimistic at best, and actively misleading at worst. 
 
-But what they aren't are snake-oil salesmen trying to sell you devices based on magical woo that's physically impossible. 
+But what they aren't are snake-oil salesmen trying to sell you devices based on magical woo that's physically impossible. It's definitely possible, but the promises were a bit optimistic.
 
 # What's this got to do with a cutting board?
 
@@ -86,7 +86,7 @@ The link between these two projects is the claim, as the OP suggests:
 
 So, does this cutting board contain a near-infra red spectrometer that will suffer from the same problem as the SCiO? 
 
-Nope. At least, not any more. It uses a pretty different technique.  Take a look at this screen grab from their video:
+Nope. At least, not any more. It uses a pretty different technique. Take a look at this screen grab from their video:
 
 ![](nutrio-touchscreen.PNG)
 
@@ -98,11 +98,11 @@ You go through the UI in the touchscreen, ask it to "Detect food", and it takes 
 
 Once you've got a classification for your image, you link those labels to a nutritional database (containing more information about the food) which you've built (or sourced), and use the load cell underneath the board to determine weight and multiply the calories/nutrients per gram to get your numbers for your tracking app. Then you just send both numbers to your app via Bluetooth or Wifi, and let the app do the rest of the calculation. Or do it in the device - if you prefer - multiplying numbers together is hardly a difficult operation. 
 
-Some commenters have jumped to the conclusion that we metal circle thing, instead of being a marker (actually, it's also a NFC reader) is in fact the "food sensor", which is somehow "looking up at the food". *UPDATE*: turns out, they're partially correct! It is a NIR spectrometer - however, the final product doesn't use this technology as they state in [their statement on Reddit](https://www.reddit.com/r/shittykickstarters/comments/msxj2f/aurora_nutrio_a_smart_cutting_board_that_scans/gv2dxv5?utm_source=share&utm_medium=web2x&context=3) that "there needs to be more research and development."
+Some commenters have jumped to the conclusion that we metal circle thing, instead of being a marker (actually, it's also a NFC reader) is in fact the "food sensor". 
 
 ![](nutrio-nfc-reader.PNG)
 
-This is a big logical jump - the creators don't say anywhere that's how it works. If they did, they are right to be sceptical. Actually, the only person who said that was how it worked was [/u/kickstarterscience](https://www.reddit.com/user/kickstarterscience/), who says:
+This is a big logical jump - the creators don't say anywhere that's how their product currently works. If they did, they are right to be sceptical. Actually, the only person who said that was how it worked was [/u/kickstarterscience](https://www.reddit.com/user/kickstarterscience/), who says:
 
 > The claim is that this cutting board has a scanner that can **scan** any type of food that you **put on it** and it knows what it is
 
@@ -111,6 +111,8 @@ That's not what they claim. But, they've built a straw-man and are now proceedin
 > but last time i put anything on top of a camera the image was black...
 
 Yes. That would be a very bad place to put a camera. That why you put it in the touchscreen where it can see the item of food on the board 🤷. 
+
+*UPDATE*: turns out, they're at least partially correct! That metal disc was a NIR spectrometer - however, the final product (that's being crowdfunded) doesn't use this technology as they say in [their statement on Reddit](https://www.reddit.com/r/shittykickstarters/comments/msxj2f/aurora_nutrio_a_smart_cutting_board_that_scans/gv2dxv5?utm_source=share&utm_medium=web2x&context=3) that "there needs to be more research and development."
 
 # What, you're saying it'll be a success?
 

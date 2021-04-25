@@ -4,17 +4,19 @@ languageCode = "en-gb"
 theme = "terminal"
 paginate = "5"
 
+[markup.goldmark.renderer]
+unsafe= true
 
 [params]
   author = "Chris Roberts"
-  header = "Software Systems Engineer, Architect and Product Manager"
+  header = "Software Engineer"
   logoUrl = "https://naxxfish.net/cropped-siteicon.png"
   instagram = "https://www.instagram.com/naxxfish/"
   github = "http://github.com/naxxfish"
   alumniOf = "University of Kent"
   birthplace = "London, UK"
   nationality = "British"
-  jobTitle = "Product Manager"
+  jobTitle = "Software Engineer"
   gender = "male"
   email = "chris@naxxfish.net"
   height = "173 cm"

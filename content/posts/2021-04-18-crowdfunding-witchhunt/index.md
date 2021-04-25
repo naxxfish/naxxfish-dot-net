@@ -40,7 +40,7 @@ Now, if you look at their [Indiegogo Campaign Page](https://www.indiegogo.com/pr
 
 > Nutrio recognizes all fresh as well as packaged foods. 
 
-I would say that the claim that it recognises **all** fresh foods is probably a bit of an optimistic stretch. However, being able to *regognize* (note the word *recognize*, not *analyze*) a variety of foods - is completely plausible. 
+I would say that the claim that it recognises **all** fresh foods is probably a bit of an optimistic stretch. However, being able to *recognize* (note the word *recognize*, not *analyze*) a variety of foods - is completely plausible. 
 
 Let me take you on a little tangent for a moment...
 

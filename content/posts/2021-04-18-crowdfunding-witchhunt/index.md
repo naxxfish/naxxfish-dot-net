@@ -48,7 +48,7 @@ Let me take you on a little tangent for a moment...
 
 Reading the thread, the OP and others make the connection between this project, and the [ill-fated SCiO "food scanner"](https://spectrum.ieee.org/the-human-os/biomedical/devices/angry-kickstarter-backers-ask-scio-wheres-my-pocketsized-molecular-sensor).  That project claimed to have a handheld device that was capable of performing advanced food analysis, telling you the nutrient content of a piece of food. 
 
-So, why have they not shipped their original device to all of their backers (they did managed to ship 5,000 out of 13,000), even years after it being successfully funded? Because they realised that it [wasn't as good as they had hoped](https://nocamels.com/2019/03/scio-kickstarter-darling-promises-molecular-sensor/). 
+So, why by September 2016 had they not shipped their original device to all of their backers (they did managed to ship 5,000 out of 13,000), even years after it being successfully funded? Because they realised that it [wasn't as good as they had hoped](https://nocamels.com/2019/03/scio-kickstarter-darling-promises-molecular-sensor/). 
 
 [At least one backer shot an unboxing video](https://www.youtube.com/watch?v=k6eGCiKqm4k). He manages to scan a potato, and gets back a spectrograph for it, which - doensn't tell you very much on it's own. [Near Infra Red Spectroscopy](https://en.wikipedia.org/wiki/Near-infrared_spectroscopy) is very much a real thing, and is already used in many applications - but most average consumers have no idea what a spectrograph of their food actually means.
 

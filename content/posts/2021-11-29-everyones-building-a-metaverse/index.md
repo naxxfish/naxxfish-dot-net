@@ -2,7 +2,7 @@
 title: "Is everyone going to build the Metaverse?"
 author: naxxfish
 type: posts
-date: 2021-12-05T15:19:00+00:00
+date: 2021-12-05T14:20:00+00:00
 categories:
   - Technology
 draft: false

@@ -1,11 +1,11 @@
 ---
-title: "The fact everyone is building 'a metaverse' shows us the idea has already failed"
+title: "Is everyone going to build the Metaverse?"
 author: naxxfish
 type: posts
-date: 2021-11-29T08:00:00+00:00
+date: 2021-12-05T15:19:00+00:00
 categories:
   - Technology
-draft: true
+draft: false
 ---
 
 Ever since [Meta](https://about.facebook.com/) (*nee Facebook*) announced their intention of building "the Metaverse" in their [Facebook Connect conference keynote in 2021](https://www.facebookconnect.com/en-gb/session/70f2a060-08ef-4aba-a500-3c0495e5519a/), changing their name in the process - the world has been simultaneously enthrealled, amused and terrified by the idea of spending more of their time in a virtual world rather than the real one. 

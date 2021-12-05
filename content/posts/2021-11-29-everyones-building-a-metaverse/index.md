@@ -8,6 +8,8 @@ categories:
 draft: false
 ---
 
+YOLO!
+
 Ever since [Meta](https://about.facebook.com/) (*nee Facebook*) announced their intention of building "the Metaverse" in their [Facebook Connect conference keynote in 2021](https://www.facebookconnect.com/en-gb/session/70f2a060-08ef-4aba-a500-3c0495e5519a/), changing their name in the process - the world has been simultaneously enthrealled, amused and terrified by the idea of spending more of their time in a virtual world rather than the real one. 
 
 Maybe it's because they remember the dystopian setting of [Ready Player One](https://www.imdb.com/title/tt1677720/?ref_=nv_sr_srsg_0), where people live in towering stacks of containers because their cities have become uninhabitable due to overcrowding and energy shortages are commonplace - and the only way to escape is through the OASIS "metaverse" - leading them to neglect to fix the problems with physical society in preference to enjoying a virtual one instead.

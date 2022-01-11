@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Serve Drafts",
+            "type": "shell",
+            "command": "hugo server -D",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        }
+    ]
+}

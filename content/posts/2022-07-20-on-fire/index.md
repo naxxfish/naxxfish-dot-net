@@ -2,7 +2,7 @@
 title: "This is fine 🔥 (no, it's not)"
 author: naxxfish
 type: posts
-date: 2022-07-20T20:57:00+00:00
+date: 2022-07-20T19:57:00+00:00
 categories:
   - Climate Change
 draft: false

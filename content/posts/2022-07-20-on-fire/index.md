@@ -14,11 +14,11 @@ This week, the UK has seen the [hottest temperatures in recorded history](https:
 
 Most news outlets were quite clear: this heatwave is a direct result of climate change. The Sun and the Daily Express gave it a different spin - we're all getting a free holiday right on our doorstep! Hooray! 🙄 
 
+<!--more-->
+
 Good on the [XR activists](https://extinctionrebellion.uk/) for [smashing Murdoch's News UK office windows](https://www.theguardian.com/environment/2022/jul/19/xr-protesters-smash-windows-of-news-uk-over-coverage-of-britains-heatwave). 
 
 There are things we could be doing *right now* that could help us do something about this mess. But instead, our government [continues to block them](https://www.theguardian.com/politics/2022/jul/20/rishi-sunak-accused-economic-illiteracy-pledge-block-onshore-windfarms) and enable NIMBYs to [object to necessary infrastructure](https://www.staffordshire-live.co.uk/news/local-news/battle-stop-giant-solar-farm-7161149) changes in order to secure support from their - primarily rich, land owning - party members. 
-
-<!-- more -->
 
 We don't need to wait for some fancy technological advances, small scale nuclear reactors, carbon capture, nuclear fusion or anything else exotic. Sure, they'll be great decades down the line - but we have the means _today_ to move away from fossil fuels. We also have the means - _today_ - to reduce our energy consumption. 
 

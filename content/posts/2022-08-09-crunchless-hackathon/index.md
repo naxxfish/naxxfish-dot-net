@@ -82,10 +82,10 @@ Make it clear in the schedule that there is a protected amount of time where the
 
 ## 🔥 Non-completion is an option
 
-Sometimes, things don't get finished and actually *that's completely fine*. The main thing is that you've learn something by trying - and your attendees feel safe to share that.
+Sometimes, things don't get finished and actually *that's completely fine*. The main thing is that you've learnt something by trying - and your attendees should feel safe to share that experience.
 
 A presentation of a broken thing is boring, but a presentation of why you couldn't get something to work could be a lot more interesting. Why didn't you finish? Was it because that library you chose was more complicated to use than you expected? Or were you too ambitious? Was the problem you were solving larger than you expected? Or did you not define it well enough? If you had to do it again, what would you change to improve your chances?
 
 # Hackathons can be great, when done well
 
-I've attended some pretty great Hackathons - and some pretty terrible ones. They're not the panacea to stagnated innovation that some might hope, but they can be an energising and interesting way to break out of your norm and do something really out there for a bit and give you inspiration. And, it's possible for them to be inclusive.
+I've attended some pretty great Hackathons - and some pretty terrible ones. They're not the panacea to stagnated innovation that some might hope, but they can be an energising and interesting way to break out of your norm and do something really out there for a bit and give you inspiration. And, it's possible for them to be inclusive, too

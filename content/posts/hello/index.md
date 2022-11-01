@@ -27,6 +27,6 @@ I believe in
 
 My super powers include clean systems interface design and domain modelling, particularly for esoteric legacy systems.
 
-I work for [Media Molecule](https://www.mediamolecule.com/), leading as a Principle DevOps Engineer.
+I work for [Media Molecule](https://www.mediamolecule.com/), as a Principle DevOps Engineer.
 
 This 'blog' catalogues my various personal analyses and opinions of things that I find interesting, or projects I've undertaken.  

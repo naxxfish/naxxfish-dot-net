@@ -1,5 +1,5 @@
 baseURL = "https://naxxfish.net/"
-description = "software systems engineer, architect and product manager"
+description = "software systems engineer"
 languageCode = "en-gb"
 theme = "terminal"
 paginate = "5"
@@ -52,8 +52,8 @@ unsafe= true
   [languages.en]
     languageName = "English"
     title = "naxxfish"
-    subtitle = "software systems engineer, architect and product manager"
-    keywords = "software engineer developer tech"
+    subtitle = "software systems engineer"
+    keywords = "software engineer developer tech devops"
     copyright = "Chris Roberts"
     menuMore = "Show more"
     readMore = "Read more"

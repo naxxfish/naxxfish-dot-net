@@ -9,7 +9,7 @@ sharing_disabled:
 ---
 **👋🏻 Hi, I'm Chris.**
 
-Nice to meet you! I'm from London, UK &ndash; which is where I presently live and work for [Citymapper](https://citymapper.com). 
+Nice to meet you! I'm from London, UK &ndash; which is where I presently live. I work for [Media Molecule](https://www.mediamolecule.com/). 
 
 * I'm a [photographer][1], and have published a [series of zines about phone boxes](https://parallaxphotographic.coop/shop/chris-roberts-kiosk-volumes-1-and-2/).
 
@@ -33,7 +33,7 @@ Nice to meet you! I'm from London, UK &ndash; which is where I presently live an
 
 * My site icon is a [modified emoji 1f40b (🐋)</span>][11]
 
-* Whilst [I am on twitter](https://twitter.com/naxxfish), I prefer [decentralised social media](https://mastodon.technology/@naxxfish)
+* I prefer [decentralised social media](https://mas.to/@naxxfish)
 
 * I enjoy a good list (evidently)
 

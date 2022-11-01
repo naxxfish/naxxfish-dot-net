@@ -1,18 +1,386 @@
-<!doctype html><html lang=en><head><title>Betheremin 0.1 :: naxxfish</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="My partner, Beth, asked me if I could make her a Theremin. So I have. It&amp;rsquo;s called the Betheremin.
+<!doctype html><html lang=en>
+<head>
+<title>Betheremin 0.1 :: naxxfish</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="My partner, Beth, asked me if I could make her a Theremin. So I have. It&amp;rsquo;s called the Betheremin.
 A Theremin is a musical instrument, which changes pitch and/or volume as you bring your hand close to it&amp;rsquo;s antenna(e). The way this works is by your hand influencing the capacitance of a resonator circuit, changing the frequency at which it oscillates. This difference in frequency creates a “beat” frequency against a reference oscillator, which can then be used to create an audible frequency or control a Voltage Controlled Amplifier.
-"><meta name=keywords content="software engineer developer tech devops"><meta name=robots content="noodp"><link rel=canonical href=https://naxxfish.net/2014/02/02/betheremin-0-1/><link rel=stylesheet href=https://naxxfish.net/assets/style.css><link rel=stylesheet href=https://naxxfish.net/assets/blue.css><link rel=apple-touch-icon href=https://naxxfish.net/img/apple-touch-icon-192x192.png><link rel="shortcut icon" href=https://naxxfish.net/cropped-siteicon.png><meta name=twitter:card content="summary"><meta name=twitter:site content="naxxfish.net"><meta name=twitter:creator content="naxxfish"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="og:title" content="Betheremin 0.1"><meta property="og:description" content="My partner, Beth, asked me if I could make her a Theremin. So I have. It&amp;rsquo;s called the Betheremin.
+">
+<meta name=keywords content="software engineer developer tech devops">
+<meta name=robots content="noodp">
+<link rel=canonical href=https://naxxfish.net/2014/02/02/betheremin-0-1/>
+<link rel=stylesheet href=https://naxxfish.net/assets/style.css>
+<link rel=stylesheet href=https://naxxfish.net/assets/blue.css>
+<link rel=apple-touch-icon href=https://naxxfish.net/img/apple-touch-icon-192x192.png>
+<link rel="shortcut icon" href=https://naxxfish.net/cropped-siteicon.png>
+<meta name=twitter:card content="summary">
+<meta name=twitter:site content="naxxfish.net">
+<meta name=twitter:creator content="naxxfish">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Betheremin 0.1">
+<meta property="og:description" content="My partner, Beth, asked me if I could make her a Theremin. So I have. It&amp;rsquo;s called the Betheremin.
 A Theremin is a musical instrument, which changes pitch and/or volume as you bring your hand close to it&amp;rsquo;s antenna(e). The way this works is by your hand influencing the capacitance of a resonator circuit, changing the frequency at which it oscillates. This difference in frequency creates a “beat” frequency against a reference oscillator, which can then be used to create an audible frequency or control a Voltage Controlled Amplifier.
-"><meta property="og:url" content="https://naxxfish.net/2014/02/02/betheremin-0-1/"><meta property="og:site_name" content="naxxfish"><meta property="og:image" content="https://naxxfish.net/cropped-siteicon.png"><meta property="og:image:width" content="2048"><meta property="og:image:height" content="1024"><meta property="article:section" content="Electronics"><meta property="article:section" content="Personal"><meta property="article:published_time" content="2014-02-02 18:54:09 +0000 UTC"><meta name=google-site-verification content="P9Dp9e0NPbJWb6JGToW0HNica_0Y6aRaZJmX4Y1pg1o"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Betheremin 0.1","datePublished":"2014-02-02T18:54:09Z","dateModified":"2014-02-02T18:54:09Z","author":{"@context":"https://schema.org/","@id":"https://naxxfish.net/about","@type":"Person","alternateName":"naxxfish","alumniOf":{"@type":"CollegeOrUniversity","name":"University of Kent","sameAs":["https://www.kent.ac.uk/","https://en.wikipedia.org/wiki/University_of_Kent"]},"birthPlace":{"@type":"Place","address":{"@type":"PostalAddress","addressCountry":"United Kingdom","addressLocality":"London"}},"callsign":"M7NXF","description":"Technologist","gender":"male","homeLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressCountry":"United Kingdom","addressLocality":"London"}},"image":["https://naxxfish.net/images/naxxfish-portrait/1x1/naxxfish-portrait.jpg","https://naxxfish.net/images/naxxfish-portrait/16x9/naxxfish-portrait.jpg","https://naxxfish.net/images/naxxfish-portrait/4x3/naxxfish-portrait.jpg"],"jobTitle":"Product Manager","knowsAbout":["https://en.wikipedia.org/wiki/Software_engineering","https://en.wikipedia.org/wiki/Broadcast_engineering","https://en.wikipedia.org/wiki/Computer_engineering","https://en.wikipedia.org/wiki/Embedded_system","https://en.wikipedia.org/wiki/Serverless_computing","https://en.wikipedia.org/wiki/Radio_broadcasting","https://en.wikipedia.org/wiki/Audio_engineer"],"memberOf":[{"@type":"Organization","name":"Audio Engineering Society","url":"http://www.aes.org/"}],"name":"Chris Roberts","nationality":"British","sameAs":["https://www.github.com/naxxfish","https://instagram.com/naxxfish","https://naxxfish.photography"],"worksFor":{"@type":"Organization","name":"British Broadcasting Corporation","sameAs":"https://www.bbc.co.uk/"}},"image":"https://naxxfish.net/2014/02/02/betheremin-0-1/","wordcount":1614,"timeRequired":"PT8M","mainEntityOfPage":{"@type":"WebPage"},"publisher":{"@type":"Organization","name":"Software Engineer","logo":{"@type":"ImageObject","url":"https://naxxfish.net/cropped-siteicon.png"}},"description":"My partner, Beth, asked me if I could make her a Theremin. So I have. It\u0026rsquo;s called the Betheremin.\nA Theremin is a musical instrument, which changes pitch and/or volume as you bring your hand close to it\u0026rsquo;s antenna(e). The way this works is by your hand influencing the capacitance of a resonator circuit, changing the frequency at which it oscillates. This difference in frequency creates a “beat” frequency against a reference oscillator, which can then be used to create an audible frequency or control a Voltage Controlled Amplifier.\n","keywords":["betheremin","circuits","electronics"],"articleBody":"My partner, Beth, asked me if I could make her a Theremin. So I have. It\u0026rsquo;s called the Betheremin.\nA Theremin is a musical instrument, which changes pitch and/or volume as you bring your hand close to it\u0026rsquo;s antenna(e). The way this works is by your hand influencing the capacitance of a resonator circuit, changing the frequency at which it oscillates. This difference in frequency creates a “beat” frequency against a reference oscillator, which can then be used to create an audible frequency or control a Voltage Controlled Amplifier.\nThis is a fairly complicated thing to build — and I didn\u0026rsquo;t have an awful lot of time, so I went for a more basic design which controls pitch only. I borrowed the circuit from Harrison Instruments “Minimum Theremin” which I have used before (from a kit). It\u0026rsquo;s a clever design which uses CMOS logic inverters to run the oscillators, and provides adjustment by tweaking the supply voltage. There\u0026rsquo;s a full explanation of how the circuit works on the Harrison Instruments website.\nThe first step for me was to transcribe the circuit into CAD format, and at the same time picking appropriate parts to do the job. In a bit of a change from my usual, I decided to source all the parts from Rapid Electronics. It ended up being quite a bit cheaper in the end than Farnell or Mouser, since the components are all pretty common and uninteresting! The BOM ended up looking like this:\nDesignation Description Part Order Code Qty Batt PP3 battery clip 1 X PP3 PCB Battery Holder 18-2990 1 C1, C9 100pF 100pf 2.5mm Npo Ceramic Capacitor 08-0940 2 C2, C4 0.01uF 10nf 2.5mm X7r Dielect Ceramic Capacitor 08-1000 2 C3 0.1uF 100nf 2.5mm Y5v Dielect Ceramic Capacitor 08-0275 1 C5, C6, C7, C8 10uF pol Forever 85°C 10U 25V Radial Lead Aluminium Electrolytic Capacitor 11-0220 4 CR1, CR3 1N4148 1N4148 Silicon Diode 150mA 75V DO-35 51-0100 2 CR2 1N4004 1n4004 1a 400v Silicon Rectifier Diode 47-3136 1 Enclosure Hammond ABS Enclosure Multipurpose Translucent Blue (121 x 66 x 40mm) 30-3779 1 JACK 6.35mm jack 2 Pole PCB Standard Jack Socket 20-1390 ONLED1, ONLED2 White LEDs 3mm Warm White LED 750mcd 55-2228 2 PITCH-CTRL 1K Pot 1K 16mm Linear Potentiometer 65-0705 1 R1, R11, R4 270k 270K 0805 1% Chip Resistor – Pack of 100 72-1025 3 R3, R12, R5 22k 22K 0805 1% Chip Resistor – Pack of 100 72-0907 3 R2, R8,R10, R9 27k 27K 0805 1% Chip Resistor – Pack of 100 72-0917 4 R6 100R 100R 0805 1% Chip Resistor – Pack of 100 72-0590 1 R7 470R 470R 0805 1% Chip Resistor – Pack of 100 72-0667 1 RV1 10k preset pot 3306W-1-103 10K ±25% 6 mm Bourns Vertical Cermet Trimmer Potentiometer 67-0642 1 PCB screws Pozi Countersunk Self-Tapping Screws No.4 9.5mm Pack Of 100 33-3415 1 SW1 Power switch Spdt R/a PCB Slide Switch 76-0271 1 U1,U2 CD4069UBE 4069ub Hex Inverters 83-0398 2 US1 US2 DIL socket Tube of 34 14pin DIL Socket, Narrow7.62mm Without Central Support 22-0108 1 VR1 LP2950ACZ-5.0 Lp2950cz-5 Micropower Regulator. 82-0680 1 KNOB 16mm knob Re’an 16mm Soft Touch Knob with White Pointer 32-0470 1 ANTENNA FASTENING Spacer – Nickel Plated Brass – 5.5mm AF Female To Female- M3 x 10.0mm – Single 49-0747 1 ANTENNA FASTENING Pozi Pan Head Machine Screws BZP M3 6mm Pack Of 100 33-2300 1 ANTENNA FASTENING Steel Washers BZP M3 Pack Of 100 33-1760 1 PCB SPACERS Pack 25 6mm Nylon Spacers 33-3634 1 Total cost, £18.04.\nI decided to go for 0805 resistors, simply because it saved on space and they were cheaper (as well as having some in stock already).\nThe enclosure is a nice translucent blue Hammond box, which lit up with the white LEDs will look awesome. I designed the PCB so it\u0026rsquo;d fit into the box and use the mounting posts already provided.\nI decided that I wanted all of the parts of this project to be mounted onto the PCB — including all of the connectors, switches, pots and battery boxes. The PCB would be mounted to the lid of the box, rather than inside the body, using nylon standoffs to give enough space between the PCB and the lid to fit the PITCH ZERO potentiometer.\nFor mounting the antenna, I used a hex profile spacer and a machine head screw, sandwiching the pad and providing a screw thread flush with the lid of the box (after drilling a hole). The antenna I got from eBay, with a M3 standard thread. This part is the main problematic part to source — I\u0026rsquo;ve yet to find someone who sells telescopic antennae with screw thread ends in any volume, or any “standard” antenna. I guess there\u0026rsquo;s not so much of a need for these these days — perhaps a better solution would be a “rubber duck” antenna with SMA connector or similar — but those connectors are quite expensive and I wouldn\u0026rsquo;t be taking advantage of the benefits of coaxial barrels.\nAfter many hours of careful routing, tweaking and massaging, I had a PCB ready to go:\nThe final PCB layout in KiCAD There\u0026rsquo;s a power slide switch at the top side, which looks like it\u0026rsquo;s going to interfere with the battery box! But, I thought, why not put that on the other side of the board, since it\u0026rsquo;ll work exactly the same. Remember that ….\nThe “bottom” side of the board, is actually the side that\u0026rsquo;s going to be facing upwards in the box. This means all the components are on the open side of the board, except the LEDs and the potentiometer. I didn\u0026rsquo;t want there to be silkscreen on the side facing upwards, so I put the markings (the Betheremin text) in the copper layer, and peeled back the solder mask — which once the board has been through the gold flashing process gives a nice gold text 🙂\nSo, PCB design, I needed to get them produced. I had a few options, but I had previously used BatchPCB to great success. Thus, I decided to try out it\u0026rsquo;s successor, OSHPark. They accept Eagle files (no faffing around with Gerbers, yay!) and they give you a great automated preview when you upload your design files. I was kept informed throughout the process, from sending them to the fab house to sending the boards back to me. The price was very reasonable, and considering the boards were shipped to me in the UK from the USA, came pretty quickly. Also the packaging, like the PCBs, is awesomely purple 🙂 I will definitely be using them again!\nThis is what I was shipped from OSHPark:\nBeautiful purple PCB goodness Gorgeous! I\u0026rsquo;m very pleased with the quality. The routing is very smooth, the soldermask is very consistent. The registration on the silkscreen was a little off, but that\u0026rsquo;s to be expected really.\nAfter a little filing around the edges to make up for the snap sprues, and the slightly tight tolerances around the curved corners, it fit into the box perfectly!\nSome soldering later:\nIn this side shot, you can see how the hex-spacer works to let you screw the antenna into the lid, and where the pot is attached to the board on it\u0026rsquo;s back.\nThe pot was secured to the PCB using normal self adhesive pads — mainly just to stop it putting strain on the pads. The shaft on the pot could do with being a little shorter — so that the knob doesn\u0026rsquo;t float quite so far away from the panel.\nNote the slide switch. I put it on the wrong side … doh! It interfered with the battery box a little, which — rather than putting the switch on the other side of the board — I filed the battery box a little to make it fit. Doh!\nThe LEDs point up the board, allowing the solder connections to reflect the light to produce an interesting pattern when the device is on.\nOverall, it looks like this:\nAfter some fairly tweaky calibration you can control the pitch from about 12 inches away. If you are grounded well, then this works even better and you get more range. It produces a mostly sawy sine wave (pretty much an RC oscillator sort of curve really, not surprisingly). I did try to put a RC low pass filter on the output (by putting a 1uF cap between the output and ground) to see if that\u0026rsquo;d make the output more siney — but unfortunately it did attenuate the output rather significantly at the frequencies we were interested in (between 0 and 1500Hz ish).\nRevisions\nIn REV 0.2, if I make another one, some things to note:\nPut the slide switch on the right side :p Make RV1, the calibration trim pot, multiturn as the single turn one was very tweaky to adjust Make the thermals thinner and the pads bigger (desoldering is a pain otherwise!) Increase the spacing between the 0805 resistors Don\u0026rsquo;t put anything under the battery box 🙂 Make the holes to mount the battery box big enough to clear a No 3. self tapping screw, so the box can be secured to the PCB properly. Increase the tolerances on the PCB borders so it\u0026rsquo;ll fit without needing filing! Future enhancements:\nPut a proper amplifier on the output, with gain control Provide a volume control Break out PWM output to control other things. Generate MIDI/OSC messages over USB?! Overall this was quite a fun little project, and something I\u0026rsquo;ve not done for quite some time! And immensely satisfying that not only is it complete and works well, but also that it\u0026rsquo;s going to be used productively!\n"}</script></head><body class=blue><div class="container center headings--one-size"><header class=header><div class=header__inner><div class=header__logo><a href=/><div class=logo>naxxfish</div></a></div><div class=menu-trigger>menu</div></div><nav class=menu><ul class="menu__inner menu__inner--desktop"><li><a href=/about>About</a></li><li><a href=https://www.github.com/naxxfish/>Github</a></li><li><a href=https://naxxfish.photography>My Photography</a></li><li><a href=/wish-list>Wish List</a></li></ul><ul class="menu__inner menu__inner--mobile"><li><a href=/about>About</a></li><li><a href=https://www.github.com/naxxfish/>Github</a></li><li><a href=https://naxxfish.photography>My Photography</a></li><li><a href=/wish-list>Wish List</a></li></ul></nav></header><div class=content><div class=post><h1 class=post-title><a href=https://naxxfish.net/2014/02/02/betheremin-0-1/>Betheremin 0.1</a></h1><div class=post-meta><span class=post-date>2014-02-02</span>
+">
+<meta property="og:url" content="https://naxxfish.net/2014/02/02/betheremin-0-1/">
+<meta property="og:site_name" content="naxxfish">
+<meta property="og:image" content="https://naxxfish.net/cropped-siteicon.png">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="article:section" content="Electronics">
+<meta property="article:section" content="Personal">
+<meta property="article:published_time" content="2014-02-02 18:54:09 +0000 UTC">
+<meta name=google-site-verification content="P9Dp9e0NPbJWb6JGToW0HNica_0Y6aRaZJmX4Y1pg1o">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Betheremin 0.1","datePublished":"2014-02-02T18:54:09Z","dateModified":"2014-02-02T18:54:09Z","author":{"@context":"https://schema.org/","@id":"https://naxxfish.net/about","@type":"Person","alternateName":"naxxfish","alumniOf":{"@type":"CollegeOrUniversity","name":"University of Kent","sameAs":["https://www.kent.ac.uk/","https://en.wikipedia.org/wiki/University_of_Kent"]},"birthPlace":{"@type":"Place","address":{"@type":"PostalAddress","addressCountry":"United Kingdom","addressLocality":"London"}},"callsign":"M7NXF","description":"Technologist","gender":"male","homeLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressCountry":"United Kingdom","addressLocality":"London"}},"image":["https://naxxfish.net/images/naxxfish-portrait/1x1/naxxfish-portrait.jpg","https://naxxfish.net/images/naxxfish-portrait/16x9/naxxfish-portrait.jpg","https://naxxfish.net/images/naxxfish-portrait/4x3/naxxfish-portrait.jpg"],"jobTitle":"Product Manager","knowsAbout":["https://en.wikipedia.org/wiki/Software_engineering","https://en.wikipedia.org/wiki/Broadcast_engineering","https://en.wikipedia.org/wiki/Computer_engineering","https://en.wikipedia.org/wiki/Embedded_system","https://en.wikipedia.org/wiki/Serverless_computing","https://en.wikipedia.org/wiki/Radio_broadcasting","https://en.wikipedia.org/wiki/Audio_engineer"],"memberOf":[{"@type":"Organization","name":"Audio Engineering Society","url":"http://www.aes.org/"}],"name":"Chris Roberts","nationality":"British","sameAs":["https://www.github.com/naxxfish","https://instagram.com/naxxfish","https://naxxfish.photography"],"worksFor":{"@type":"Organization","name":"British Broadcasting Corporation","sameAs":"https://www.bbc.co.uk/"}},"image":"https://naxxfish.net/2014/02/02/betheremin-0-1/","wordcount":1614,"timeRequired":"PT8M","mainEntityOfPage":{"@type":"WebPage"},"publisher":{"@type":"Organization","name":"Software Engineer","logo":{"@type":"ImageObject","url":"https://naxxfish.net/cropped-siteicon.png"}},"description":"My partner, Beth, asked me if I could make her a Theremin. So I have. It\u0026rsquo;s called the Betheremin.\nA Theremin is a musical instrument, which changes pitch and/or volume as you bring your hand close to it\u0026rsquo;s antenna(e). The way this works is by your hand influencing the capacitance of a resonator circuit, changing the frequency at which it oscillates. This difference in frequency creates a “beat” frequency against a reference oscillator, which can then be used to create an audible frequency or control a Voltage Controlled Amplifier.\n","keywords":["betheremin","circuits","electronics"],"articleBody":"My partner, Beth, asked me if I could make her a Theremin. So I have. It\u0026rsquo;s called the Betheremin.\nA Theremin is a musical instrument, which changes pitch and/or volume as you bring your hand close to it\u0026rsquo;s antenna(e). The way this works is by your hand influencing the capacitance of a resonator circuit, changing the frequency at which it oscillates. This difference in frequency creates a “beat” frequency against a reference oscillator, which can then be used to create an audible frequency or control a Voltage Controlled Amplifier.\nThis is a fairly complicated thing to build — and I didn\u0026rsquo;t have an awful lot of time, so I went for a more basic design which controls pitch only. I borrowed the circuit from Harrison Instruments “Minimum Theremin” which I have used before (from a kit). It\u0026rsquo;s a clever design which uses CMOS logic inverters to run the oscillators, and provides adjustment by tweaking the supply voltage. There\u0026rsquo;s a full explanation of how the circuit works on the Harrison Instruments website.\nThe first step for me was to transcribe the circuit into CAD format, and at the same time picking appropriate parts to do the job. In a bit of a change from my usual, I decided to source all the parts from Rapid Electronics. It ended up being quite a bit cheaper in the end than Farnell or Mouser, since the components are all pretty common and uninteresting! The BOM ended up looking like this:\n   Designation Description Part Order Code Qty     Batt PP3 battery clip 1 X PP3 PCB Battery Holder 18-2990 1   C1, C9 100pF 100pf 2.5mm Npo Ceramic Capacitor 08-0940 2   C2, C4 0.01uF 10nf 2.5mm X7r Dielect Ceramic Capacitor 08-1000 2   C3 0.1uF 100nf 2.5mm Y5v Dielect Ceramic Capacitor 08-0275 1   C5, C6, C7, C8 10uF pol Forever 85°C 10U 25V Radial Lead Aluminium Electrolytic Capacitor 11-0220 4   CR1, CR3 1N4148 1N4148 Silicon Diode 150mA 75V DO-35 51-0100 2   CR2 1N4004 1n4004 1a 400v Silicon Rectifier Diode 47-3136 1   Enclosure  Hammond ABS Enclosure Multipurpose Translucent Blue (121 x 66 x 40mm) 30-3779 1   JACK 6.35mm jack 2 Pole PCB Standard Jack Socket 20-1390    ONLED1, ONLED2 White LEDs 3mm Warm White LED 750mcd 55-2228 2   PITCH-CTRL 1K Pot 1K 16mm Linear Potentiometer 65-0705 1   R1, R11, R4 270k 270K 0805 1% Chip Resistor – Pack of 100 72-1025 3   R3, R12, R5 22k 22K 0805 1% Chip Resistor – Pack of 100 72-0907 3   R2, R8,R10, R9 27k 27K 0805 1% Chip Resistor – Pack of 100 72-0917 4   R6 100R 100R 0805 1% Chip Resistor – Pack of 100 72-0590 1   R7 470R 470R 0805 1% Chip Resistor – Pack of 100 72-0667 1   RV1 10k preset pot 3306W-1-103 10K ±25% 6 mm Bourns Vertical Cermet Trimmer Potentiometer 67-0642 1   PCB screws  Pozi Countersunk Self-Tapping Screws No.4 9.5mm Pack Of 100 33-3415 1   SW1 Power switch Spdt R/a PCB Slide Switch 76-0271 1   U1,U2 CD4069UBE 4069ub Hex Inverters 83-0398 2   US1 US2 DIL socket Tube of 34 14pin DIL Socket, Narrow7.62mm Without Central Support 22-0108 1   VR1 LP2950ACZ-5.0 Lp2950cz-5 Micropower Regulator. 82-0680 1   KNOB 16mm knob Re’an 16mm Soft Touch Knob with White Pointer 32-0470 1   ANTENNA FASTENING  Spacer – Nickel Plated Brass – 5.5mm AF Female To Female- M3 x 10.0mm – Single 49-0747 1   ANTENNA FASTENING  Pozi Pan Head Machine Screws BZP M3 6mm Pack Of 100 33-2300 1   ANTENNA FASTENING  Steel Washers BZP M3 Pack Of 100 33-1760 1   PCB SPACERS  Pack 25 6mm Nylon Spacers 33-3634 1    Total cost, £18.04.\nI decided to go for 0805 resistors, simply because it saved on space and they were cheaper (as well as having some in stock already).\nThe enclosure is a nice translucent blue Hammond box, which lit up with the white LEDs will look awesome. I designed the PCB so it\u0026rsquo;d fit into the box and use the mounting posts already provided.\nI decided that I wanted all of the parts of this project to be mounted onto the PCB — including all of the connectors, switches, pots and battery boxes. The PCB would be mounted to the lid of the box, rather than inside the body, using nylon standoffs to give enough space between the PCB and the lid to fit the PITCH ZERO potentiometer.\nFor mounting the antenna, I used a hex profile spacer and a machine head screw, sandwiching the pad and providing a screw thread flush with the lid of the box (after drilling a hole). The antenna I got from eBay, with a M3 standard thread. This part is the main problematic part to source — I\u0026rsquo;ve yet to find someone who sells telescopic antennae with screw thread ends in any volume, or any “standard” antenna. I guess there\u0026rsquo;s not so much of a need for these these days — perhaps a better solution would be a “rubber duck” antenna with SMA connector or similar — but those connectors are quite expensive and I wouldn\u0026rsquo;t be taking advantage of the benefits of coaxial barrels.\nAfter many hours of careful routing, tweaking and massaging, I had a PCB ready to go:\nThe final PCB layout in KiCAD  There\u0026rsquo;s a power slide switch at the top side, which looks like it\u0026rsquo;s going to interfere with the battery box! But, I thought, why not put that on the other side of the board, since it\u0026rsquo;ll work exactly the same. Remember that ….\nThe “bottom” side of the board, is actually the side that\u0026rsquo;s going to be facing upwards in the box. This means all the components are on the open side of the board, except the LEDs and the potentiometer. I didn\u0026rsquo;t want there to be silkscreen on the side facing upwards, so I put the markings (the Betheremin text) in the copper layer, and peeled back the solder mask — which once the board has been through the gold flashing process gives a nice gold text 🙂\nSo, PCB design, I needed to get them produced. I had a few options, but I had previously used BatchPCB to great success. Thus, I decided to try out it\u0026rsquo;s successor, OSHPark. They accept Eagle files (no faffing around with Gerbers, yay!) and they give you a great automated preview when you upload your design files. I was kept informed throughout the process, from sending them to the fab house to sending the boards back to me. The price was very reasonable, and considering the boards were shipped to me in the UK from the USA, came pretty quickly. Also the packaging, like the PCBs, is awesomely purple 🙂 I will definitely be using them again!\nThis is what I was shipped from OSHPark:\nBeautiful purple PCB goodness  Gorgeous! I\u0026rsquo;m very pleased with the quality. The routing is very smooth, the soldermask is very consistent. The registration on the silkscreen was a little off, but that\u0026rsquo;s to be expected really.\nAfter a little filing around the edges to make up for the snap sprues, and the slightly tight tolerances around the curved corners, it fit into the box perfectly!\nSome soldering later:\n In this side shot, you can see how the hex-spacer works to let you screw the antenna into the lid, and where the pot is attached to the board on it\u0026rsquo;s back.\n  The pot was secured to the PCB using normal self adhesive pads — mainly just to stop it putting strain on the pads. The shaft on the pot could do with being a little shorter — so that the knob doesn\u0026rsquo;t float quite so far away from the panel.\nNote the slide switch. I put it on the wrong side … doh! It interfered with the battery box a little, which — rather than putting the switch on the other side of the board — I filed the battery box a little to make it fit. Doh!\nThe LEDs point up the board, allowing the solder connections to reflect the light to produce an interesting pattern when the device is on.\n Overall, it looks like this:\n After some fairly tweaky calibration you can control the pitch from about 12 inches away. If you are grounded well, then this works even better and you get more range. It produces a mostly sawy sine wave (pretty much an RC oscillator sort of curve really, not surprisingly). I did try to put a RC low pass filter on the output (by putting a 1uF cap between the output and ground) to see if that\u0026rsquo;d make the output more siney — but unfortunately it did attenuate the output rather significantly at the frequencies we were interested in (between 0 and 1500Hz ish).\nRevisions\nIn REV 0.2, if I make another one, some things to note:\n Put the slide switch on the right side :p Make RV1, the calibration trim pot, multiturn as the single turn one was very tweaky to adjust Make the thermals thinner and the pads bigger (desoldering is a pain otherwise!) Increase the spacing between the 0805 resistors Don\u0026rsquo;t put anything under the battery box 🙂 Make the holes to mount the battery box big enough to clear a No 3. self tapping screw, so the box can be secured to the PCB properly. Increase the tolerances on the PCB borders so it\u0026rsquo;ll fit without needing filing!  Future enhancements:\n Put a proper amplifier on the output, with gain control Provide a volume control Break out PWM output to control other things. Generate MIDI/OSC messages over USB?!  Overall this was quite a fun little project, and something I\u0026rsquo;ve not done for quite some time! And immensely satisfying that not only is it complete and works well, but also that it\u0026rsquo;s going to be used productively!\n"}</script>
+</head>
+<body class=blue>
+<div class="container center headings--one-size">
+<header class=header>
+<div class=header__inner>
+<div class=header__logo>
+<a href=/>
+<div class=logo>
+naxxfish
+</div>
+</a>
+</div>
+<div class=menu-trigger>menu</div>
+</div>
+<nav class=menu>
+<ul class="menu__inner menu__inner--desktop">
+<li><a href=/about>About</a></li>
+<li><a href=https://www.github.com/naxxfish/>Github</a></li>
+<li><a href=https://naxxfish.photography>My Photography</a></li>
+<li><a href=/wish-list>Wish List</a></li>
+</ul>
+<ul class="menu__inner menu__inner--mobile">
+<li><a href=/about>About</a></li>
+<li><a href=https://www.github.com/naxxfish/>Github</a></li>
+<li><a href=https://naxxfish.photography>My Photography</a></li>
+<li><a href=/wish-list>Wish List</a></li>
+</ul>
+</nav>
+</header>
+<div class=content>
+<div class=post>
+<h1 class=post-title>
+<a href=https://naxxfish.net/2014/02/02/betheremin-0-1/>Betheremin 0.1</a></h1>
+<div class=post-meta>
+<span class=post-date>
+2014-02-02
+</span>
 <span class=post-author>::
-naxxfish</span></div><span class=post-tags>#<a href=https://naxxfish.net/tags/betheremin/>betheremin</a>&nbsp;
+naxxfish
+</span>
+</div>
+<span class=post-tags>
+#<a href=https://naxxfish.net/tags/betheremin/>betheremin</a>&nbsp;
 #<a href=https://naxxfish.net/tags/circuits/>circuits</a>&nbsp;
-#<a href=https://naxxfish.net/tags/electronics/>electronics</a>&nbsp;</span><meta itemprop=dateModified content="2014-02-02T18:54:09Z"><meta itemprop=author content="naxxfish"><div class=post-content><p>My partner, Beth, asked me if I could make her a Theremin.  So I have.  It&rsquo;s called the Betheremin.</p><p>A <a href=http://en.wikipedia.org/wiki/Theremin>Theremin</a> is a musical instrument, which changes pitch and/or volume as you bring your hand close to it&rsquo;s antenna(e).  The way this works is by your hand influencing the capacitance of a resonator circuit, changing the frequency at which it oscillates.  This difference in frequency creates a “beat” frequency against a reference oscillator, which can then be used to create an audible frequency or control a Voltage Controlled Amplifier.</p><p>This is a fairly complicated thing to build — and I didn&rsquo;t have an awful lot of time, so I went for a more basic design which controls pitch only.  I borrowed the circuit from <a href=http://harrisoninstruments.com/101/101_description.html>Harrison Instruments “Minimum Theremin”</a> which I have used before (from a kit).  It&rsquo;s a clever design which uses CMOS logic inverters to run the oscillators, and provides adjustment by tweaking the supply voltage.  There&rsquo;s a <a href=http://harrisoninstruments.com/101/101_schematic.html>full explanation of how the circuit works</a> on the Harrison Instruments website.</p><p>The first step for me was to transcribe the circuit into CAD format, and at the same time picking appropriate parts to do the job.  In a bit of a change from my usual, I decided to source all the parts from <a href=http://www.rapidonline.com/>Rapid Electronics.</a>  It ended up being quite a bit cheaper in the end than Farnell or Mouser, since the components are all pretty common and uninteresting!  The BOM ended up looking like this:</p><table><thead><tr><th style=text-align:left>Designation</th><th style=text-align:left>Description</th><th style=text-align:left>Part</th><th style=text-align:left>Order Code</th><th style=text-align:left>Qty</th></tr></thead><tbody><tr><td style=text-align:left>Batt</td><td style=text-align:left>PP3 battery clip</td><td style=text-align:left>1 X PP3 PCB Battery Holder</td><td style=text-align:left>18-2990</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>C1, C9</td><td style=text-align:left>100pF</td><td style=text-align:left>100pf 2.5mm Npo Ceramic Capacitor</td><td style=text-align:left>08-0940</td><td style=text-align:left>2</td></tr><tr><td style=text-align:left>C2, C4</td><td style=text-align:left>0.01uF</td><td style=text-align:left>10nf 2.5mm X7r Dielect Ceramic Capacitor</td><td style=text-align:left>08-1000</td><td style=text-align:left>2</td></tr><tr><td style=text-align:left>C3</td><td style=text-align:left>0.1uF</td><td style=text-align:left>100nf 2.5mm Y5v Dielect Ceramic Capacitor</td><td style=text-align:left>08-0275</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>C5, C6, C7, C8</td><td style=text-align:left>10uF pol</td><td style=text-align:left>Forever 85°C 10U 25V Radial Lead Aluminium Electrolytic Capacitor</td><td style=text-align:left>11-0220</td><td style=text-align:left>4</td></tr><tr><td style=text-align:left>CR1, CR3</td><td style=text-align:left>1N4148</td><td style=text-align:left>1N4148 Silicon Diode 150mA 75V DO-35</td><td style=text-align:left>51-0100</td><td style=text-align:left>2</td></tr><tr><td style=text-align:left>CR2</td><td style=text-align:left>1N4004</td><td style=text-align:left>1n4004 1a 400v Silicon Rectifier Diode</td><td style=text-align:left>47-3136</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>Enclosure</td><td style=text-align:left></td><td style=text-align:left>Hammond ABS Enclosure Multipurpose Translucent Blue (121 x 66 x 40mm)</td><td style=text-align:left>30-3779</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>JACK</td><td style=text-align:left>6.35mm jack</td><td style=text-align:left>2 Pole PCB Standard Jack Socket</td><td style=text-align:left>20-1390</td><td></td></tr><tr><td style=text-align:left>ONLED1, ONLED2</td><td style=text-align:left>White LEDs</td><td style=text-align:left>3mm Warm White LED 750mcd</td><td style=text-align:left>55-2228</td><td style=text-align:left>2</td></tr><tr><td style=text-align:left>PITCH-CTRL</td><td style=text-align:left>1K Pot</td><td style=text-align:left>1K 16mm Linear Potentiometer</td><td style=text-align:left>65-0705</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>R1, R11, R4</td><td style=text-align:left>270k</td><td style=text-align:left>270K 0805 1% Chip Resistor – Pack of 100</td><td style=text-align:left>72-1025</td><td style=text-align:left>3</td></tr><tr><td style=text-align:left>R3, R12, R5</td><td style=text-align:left>22k</td><td style=text-align:left>22K 0805 1% Chip Resistor – Pack of 100</td><td style=text-align:left>72-0907</td><td style=text-align:left>3</td></tr><tr><td style=text-align:left>R2, R8,R10, R9</td><td style=text-align:left>27k</td><td style=text-align:left>27K 0805 1% Chip Resistor – Pack of 100</td><td style=text-align:left>72-0917</td><td style=text-align:left>4</td></tr><tr><td style=text-align:left>R6</td><td style=text-align:left>100R</td><td style=text-align:left>100R 0805 1% Chip Resistor – Pack of 100</td><td style=text-align:left>72-0590</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>R7</td><td style=text-align:left>470R</td><td style=text-align:left>470R 0805 1% Chip Resistor – Pack of 100</td><td style=text-align:left>72-0667</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>RV1</td><td style=text-align:left>10k preset pot</td><td style=text-align:left>3306W-1-103 10K ±25% 6 mm Bourns Vertical Cermet Trimmer Potentiometer</td><td style=text-align:left>67-0642</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>PCB screws</td><td style=text-align:left></td><td style=text-align:left>Pozi Countersunk Self-Tapping Screws No.4 9.5mm Pack Of 100</td><td style=text-align:left>33-3415</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>SW1</td><td style=text-align:left>Power switch</td><td style=text-align:left>Spdt R/a PCB Slide Switch</td><td style=text-align:left>76-0271</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>U1,U2</td><td style=text-align:left>CD4069UBE</td><td style=text-align:left>4069ub Hex Inverters</td><td style=text-align:left>83-0398</td><td style=text-align:left>2</td></tr><tr><td style=text-align:left>US1 US2</td><td style=text-align:left>DIL socket</td><td style=text-align:left>Tube of 34 14pin DIL Socket, Narrow7.62mm Without Central Support</td><td style=text-align:left>22-0108</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>VR1</td><td style=text-align:left>LP2950ACZ-5.0</td><td style=text-align:left>Lp2950cz-5 Micropower Regulator.</td><td style=text-align:left>82-0680</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>KNOB</td><td style=text-align:left>16mm knob</td><td style=text-align:left>Re’an 16mm Soft Touch Knob with White Pointer</td><td style=text-align:left>32-0470</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>ANTENNA FASTENING</td><td style=text-align:left></td><td style=text-align:left>Spacer – Nickel Plated Brass – 5.5mm AF Female To Female- M3 x 10.0mm – Single</td><td style=text-align:left>49-0747</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>ANTENNA FASTENING</td><td style=text-align:left></td><td style=text-align:left>Pozi Pan Head Machine Screws BZP M3 6mm Pack Of 100</td><td style=text-align:left>33-2300</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>ANTENNA FASTENING</td><td style=text-align:left></td><td style=text-align:left>Steel Washers BZP M3 Pack Of 100</td><td style=text-align:left>33-1760</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>PCB SPACERS</td><td style=text-align:left></td><td style=text-align:left>Pack 25 6mm Nylon Spacers</td><td style=text-align:left>33-3634</td><td style=text-align:left>1</td></tr></tbody></table><p>Total cost, <strong>£18.04</strong>.</p><p>I decided to go for 0805 resistors, simply because it saved on space and they were cheaper (as well as having some in stock already).</p><p>The enclosure is a nice translucent blue Hammond box, which lit up with the white LEDs will look awesome.  I designed the PCB so it&rsquo;d fit into the box and use the mounting posts already provided.</p><p>I decided that I wanted all of the parts of this project to be mounted onto the PCB — including all of the connectors, switches, pots and battery boxes.  The PCB would be mounted to the lid of the box, rather than inside the body, using nylon standoffs to give enough space between the PCB and the lid to fit the PITCH ZERO potentiometer.</p><p>For mounting the antenna, I used a hex profile spacer and a machine head screw, sandwiching the pad and providing a screw thread flush with the lid of the box (after drilling a hole).  The antenna I got from eBay, with a M3 standard thread.  This part is the main problematic part to source — I&rsquo;ve yet to find someone who sells telescopic antennae with screw thread ends in any volume, or any “standard” antenna.  I guess there&rsquo;s not so much of a need for these these days — perhaps a better solution would be a “rubber duck” antenna with SMA connector or similar — but those connectors are quite expensive and I wouldn&rsquo;t be taking advantage of the benefits of coaxial barrels.</p><p>After many hours of careful routing, tweaking and massaging, I had a PCB ready to go:</p><figure class=left><img sizes="(min-width: 35em) 1200px, 100vw" srcset='/2014/02/02/betheremin-0-1/pcb_final_hub43e139f562298f24133945de6ca01cf_54290_500x0_resize_box_3.png 500w
+#<a href=https://naxxfish.net/tags/electronics/>electronics</a>&nbsp;
+</span>
+<meta itemprop=dateModified content="2014-02-02T18:54:09Z">
+<meta itemprop=author content="naxxfish">
+<div class=post-content>
+<p>My partner, Beth, asked me if I could make her a Theremin.  So I have.  It&rsquo;s called the Betheremin.</p>
+<p>A <a href=http://en.wikipedia.org/wiki/Theremin>Theremin</a> is a musical instrument, which changes pitch and/or volume as you bring your hand close to it&rsquo;s antenna(e).  The way this works is by your hand influencing the capacitance of a resonator circuit, changing the frequency at which it oscillates.  This difference in frequency creates a “beat” frequency against a reference oscillator, which can then be used to create an audible frequency or control a Voltage Controlled Amplifier.</p>
+<p>This is a fairly complicated thing to build — and I didn&rsquo;t have an awful lot of time, so I went for a more basic design which controls pitch only.  I borrowed the circuit from <a href=http://harrisoninstruments.com/101/101_description.html>Harrison Instruments “Minimum Theremin”</a> which I have used before (from a kit).  It&rsquo;s a clever design which uses CMOS logic inverters to run the oscillators, and provides adjustment by tweaking the supply voltage.  There&rsquo;s a <a href=http://harrisoninstruments.com/101/101_schematic.html>full explanation of how the circuit works</a> on the Harrison Instruments website.</p>
+<p>The first step for me was to transcribe the circuit into CAD format, and at the same time picking appropriate parts to do the job.  In a bit of a change from my usual, I decided to source all the parts from <a href=http://www.rapidonline.com/>Rapid Electronics.</a>  It ended up being quite a bit cheaper in the end than Farnell or Mouser, since the components are all pretty common and uninteresting!  The BOM ended up looking like this:</p>
+<table>
+<thead>
+<tr>
+<th style=text-align:left>Designation</th>
+<th style=text-align:left>Description</th>
+<th style=text-align:left>Part</th>
+<th style=text-align:left>Order Code</th>
+<th style=text-align:left>Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:left>Batt</td>
+<td style=text-align:left>PP3 battery clip</td>
+<td style=text-align:left>1 X PP3 PCB Battery Holder</td>
+<td style=text-align:left>18-2990</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>C1, C9</td>
+<td style=text-align:left>100pF</td>
+<td style=text-align:left>100pf 2.5mm Npo Ceramic Capacitor</td>
+<td style=text-align:left>08-0940</td>
+<td style=text-align:left>2</td>
+</tr>
+<tr>
+<td style=text-align:left>C2, C4</td>
+<td style=text-align:left>0.01uF</td>
+<td style=text-align:left>10nf 2.5mm X7r Dielect Ceramic Capacitor</td>
+<td style=text-align:left>08-1000</td>
+<td style=text-align:left>2</td>
+</tr>
+<tr>
+<td style=text-align:left>C3</td>
+<td style=text-align:left>0.1uF</td>
+<td style=text-align:left>100nf 2.5mm Y5v Dielect Ceramic Capacitor</td>
+<td style=text-align:left>08-0275</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>C5, C6, C7, C8</td>
+<td style=text-align:left>10uF pol</td>
+<td style=text-align:left>Forever 85°C 10U 25V Radial Lead Aluminium Electrolytic Capacitor</td>
+<td style=text-align:left>11-0220</td>
+<td style=text-align:left>4</td>
+</tr>
+<tr>
+<td style=text-align:left>CR1, CR3</td>
+<td style=text-align:left>1N4148</td>
+<td style=text-align:left>1N4148 Silicon Diode 150mA 75V DO-35</td>
+<td style=text-align:left>51-0100</td>
+<td style=text-align:left>2</td>
+</tr>
+<tr>
+<td style=text-align:left>CR2</td>
+<td style=text-align:left>1N4004</td>
+<td style=text-align:left>1n4004 1a 400v Silicon Rectifier Diode</td>
+<td style=text-align:left>47-3136</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>Enclosure</td>
+<td style=text-align:left></td>
+<td style=text-align:left>Hammond ABS Enclosure Multipurpose Translucent Blue (121 x 66 x 40mm)</td>
+<td style=text-align:left>30-3779</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>JACK</td>
+<td style=text-align:left>6.35mm jack</td>
+<td style=text-align:left>2 Pole PCB Standard Jack Socket</td>
+<td style=text-align:left>20-1390</td>
+<td></td>
+</tr>
+<tr>
+<td style=text-align:left>ONLED1, ONLED2</td>
+<td style=text-align:left>White LEDs</td>
+<td style=text-align:left>3mm Warm White LED 750mcd</td>
+<td style=text-align:left>55-2228</td>
+<td style=text-align:left>2</td>
+</tr>
+<tr>
+<td style=text-align:left>PITCH-CTRL</td>
+<td style=text-align:left>1K Pot</td>
+<td style=text-align:left>1K 16mm Linear Potentiometer</td>
+<td style=text-align:left>65-0705</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>R1, R11, R4</td>
+<td style=text-align:left>270k</td>
+<td style=text-align:left>270K 0805 1% Chip Resistor – Pack of 100</td>
+<td style=text-align:left>72-1025</td>
+<td style=text-align:left>3</td>
+</tr>
+<tr>
+<td style=text-align:left>R3, R12, R5</td>
+<td style=text-align:left>22k</td>
+<td style=text-align:left>22K 0805 1% Chip Resistor – Pack of 100</td>
+<td style=text-align:left>72-0907</td>
+<td style=text-align:left>3</td>
+</tr>
+<tr>
+<td style=text-align:left>R2, R8,R10, R9</td>
+<td style=text-align:left>27k</td>
+<td style=text-align:left>27K 0805 1% Chip Resistor – Pack of 100</td>
+<td style=text-align:left>72-0917</td>
+<td style=text-align:left>4</td>
+</tr>
+<tr>
+<td style=text-align:left>R6</td>
+<td style=text-align:left>100R</td>
+<td style=text-align:left>100R 0805 1% Chip Resistor – Pack of 100</td>
+<td style=text-align:left>72-0590</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>R7</td>
+<td style=text-align:left>470R</td>
+<td style=text-align:left>470R 0805 1% Chip Resistor – Pack of 100</td>
+<td style=text-align:left>72-0667</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>RV1</td>
+<td style=text-align:left>10k preset pot</td>
+<td style=text-align:left>3306W-1-103 10K ±25% 6 mm Bourns Vertical Cermet Trimmer Potentiometer</td>
+<td style=text-align:left>67-0642</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>PCB screws</td>
+<td style=text-align:left></td>
+<td style=text-align:left>Pozi Countersunk Self-Tapping Screws No.4 9.5mm Pack Of 100</td>
+<td style=text-align:left>33-3415</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>SW1</td>
+<td style=text-align:left>Power switch</td>
+<td style=text-align:left>Spdt R/a PCB Slide Switch</td>
+<td style=text-align:left>76-0271</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>U1,U2</td>
+<td style=text-align:left>CD4069UBE</td>
+<td style=text-align:left>4069ub Hex Inverters</td>
+<td style=text-align:left>83-0398</td>
+<td style=text-align:left>2</td>
+</tr>
+<tr>
+<td style=text-align:left>US1 US2</td>
+<td style=text-align:left>DIL socket</td>
+<td style=text-align:left>Tube of 34 14pin DIL Socket, Narrow7.62mm Without Central Support</td>
+<td style=text-align:left>22-0108</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>VR1</td>
+<td style=text-align:left>LP2950ACZ-5.0</td>
+<td style=text-align:left>Lp2950cz-5 Micropower Regulator.</td>
+<td style=text-align:left>82-0680</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>KNOB</td>
+<td style=text-align:left>16mm knob</td>
+<td style=text-align:left>Re’an 16mm Soft Touch Knob with White Pointer</td>
+<td style=text-align:left>32-0470</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>ANTENNA FASTENING</td>
+<td style=text-align:left></td>
+<td style=text-align:left>Spacer – Nickel Plated Brass – 5.5mm AF Female To Female- M3 x 10.0mm – Single</td>
+<td style=text-align:left>49-0747</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>ANTENNA FASTENING</td>
+<td style=text-align:left></td>
+<td style=text-align:left>Pozi Pan Head Machine Screws BZP M3 6mm Pack Of 100</td>
+<td style=text-align:left>33-2300</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>ANTENNA FASTENING</td>
+<td style=text-align:left></td>
+<td style=text-align:left>Steel Washers BZP M3 Pack Of 100</td>
+<td style=text-align:left>33-1760</td>
+<td style=text-align:left>1</td>
+</tr>
+<tr>
+<td style=text-align:left>PCB SPACERS</td>
+<td style=text-align:left></td>
+<td style=text-align:left>Pack 25 6mm Nylon Spacers</td>
+<td style=text-align:left>33-3634</td>
+<td style=text-align:left>1</td>
+</tr>
+</tbody>
+</table>
+<p>Total cost, <strong>£18.04</strong>.</p>
+<p>I decided to go for 0805 resistors, simply because it saved on space and they were cheaper (as well as having some in stock already).</p>
+<p>The enclosure is a nice translucent blue Hammond box, which lit up with the white LEDs will look awesome.  I designed the PCB so it&rsquo;d fit into the box and use the mounting posts already provided.</p>
+<p>I decided that I wanted all of the parts of this project to be mounted onto the PCB — including all of the connectors, switches, pots and battery boxes.  The PCB would be mounted to the lid of the box, rather than inside the body, using nylon standoffs to give enough space between the PCB and the lid to fit the PITCH ZERO potentiometer.</p>
+<p>For mounting the antenna, I used a hex profile spacer and a machine head screw, sandwiching the pad and providing a screw thread flush with the lid of the box (after drilling a hole).  The antenna I got from eBay, with a M3 standard thread.  This part is the main problematic part to source — I&rsquo;ve yet to find someone who sells telescopic antennae with screw thread ends in any volume, or any “standard” antenna.  I guess there&rsquo;s not so much of a need for these these days — perhaps a better solution would be a “rubber duck” antenna with SMA connector or similar — but those connectors are quite expensive and I wouldn&rsquo;t be taking advantage of the benefits of coaxial barrels.</p>
+<p>After many hours of careful routing, tweaking and massaging, I had a PCB ready to go:</p>
+<figure class=left>
+<img sizes="(min-width: 35em) 1200px, 100vw" srcset="/2014/02/02/betheremin-0-1/pcb_final_hub43e139f562298f24133945de6ca01cf_54290_500x0_resize_box_3.png 500w
 , /2014/02/02/betheremin-0-1/pcb_final_hub43e139f562298f24133945de6ca01cf_54290_800x0_resize_box_3.png 800w
-, /2014/02/02/betheremin-0-1/pcb_final_hub43e139f562298f24133945de6ca01cf_54290_1200x0_resize_box_3.png 1200w' src=/2014/02/02/betheremin-0-1/pcb_final_hub43e139f562298f24133945de6ca01cf_54290_1200x0_resize_box_3.png alt><figcaption class=center>The final PCB layout in KiCAD</figcaption></figure><p>There&rsquo;s a power slide switch at the top side, which looks like it&rsquo;s going to interfere with the battery box!  But, I thought, why not put that on the other side of the board, since it&rsquo;ll work exactly the same.  Remember that ….</p><p>The “bottom” side of the board, is actually the side that&rsquo;s going to be facing upwards in the box.  This means all the components are on the open side of the board, except the LEDs and the potentiometer.  I didn&rsquo;t want there to be silkscreen on the side facing upwards, so I put the markings (the <code>Betheremin</code> text) in the copper layer, and peeled back the solder mask — which once the board has been through the gold flashing process gives a nice gold text 🙂</p><p>So, PCB design, I needed to get them produced.  I had a few options, but I had previously used BatchPCB to great success.  Thus, I decided to try out it&rsquo;s successor, <a href=http://oshpark.com/>OSHPark</a>.  They accept Eagle files (no faffing around with Gerbers, yay!) and they give you a great automated preview when you upload your design files.  I was kept informed throughout the process, from sending them to the fab house to sending the boards back to me.  The price was very reasonable, and considering the boards were shipped to me in the UK from the USA, came pretty quickly.  Also the packaging, like the PCBs, is awesomely purple 🙂 I will definitely be using them again!</p><p>This is what I was shipped from OSHPark:</p><figure class=center><img sizes="(min-width: 35em) 1200px, 100vw" srcset src=/2014/02/02/betheremin-0-1/20140130_102956_hub9409e5607ac10d7f9275329f333619c_20173_1200x0_resize_q75_box.jpg alt><figcaption class=center>Beautiful purple PCB goodness</figcaption></figure><p>Gorgeous!  I&rsquo;m very pleased with the quality.  The routing is very smooth, the soldermask is very consistent. The registration on the silkscreen was a little off, but that&rsquo;s to be expected really.</p><p>After a little filing around the edges to make up for the snap sprues, and the slightly tight tolerances around the curved corners, it fit into the box perfectly!</p><p>Some soldering later:</p><figure class=center><img sizes="(min-width: 35em) 1200px, 100vw" srcset src=/2014/02/02/betheremin-0-1/20140202_182432_hue2ddc39f803ac3021bcd2129432f2d0a_36661_1200x0_resize_q75_box.jpg alt></figure><p>In this side shot, you can see how the hex-spacer works to let you screw the antenna into the lid, and where the pot is attached to the board on it&rsquo;s back.</p><figure class=center><img sizes="(min-width: 35em) 1200px, 100vw" srcset='/2014/02/02/betheremin-0-1/20140202_182459_hua659f0f2baad20d84332b4faaf7a58f1_66959_500x0_resize_q75_box.jpg 500w
-, /2014/02/02/betheremin-0-1/20140202_182459_hua659f0f2baad20d84332b4faaf7a58f1_66959_800x0_resize_q75_box.jpg 800w' src=/2014/02/02/betheremin-0-1/20140202_182459_hua659f0f2baad20d84332b4faaf7a58f1_66959_1200x0_resize_q75_box.jpg alt></figure><figure class=center><img sizes="(min-width: 35em) 1200px, 100vw" srcset='/2014/02/02/betheremin-0-1/20140202_182511_hu30a6e995d49dc9006598afca9754bb55_65522_500x0_resize_q75_box.jpg 500w
-, /2014/02/02/betheremin-0-1/20140202_182511_hu30a6e995d49dc9006598afca9754bb55_65522_800x0_resize_q75_box.jpg 800w' src=/2014/02/02/betheremin-0-1/20140202_182511_hu30a6e995d49dc9006598afca9754bb55_65522_1200x0_resize_q75_box.jpg alt></figure><p>The pot was secured to the PCB using normal self adhesive pads — mainly just to stop it putting strain on the pads.  The shaft on the pot could do with being a little shorter — so that the knob doesn&rsquo;t float quite so far away from the panel.</p><p>Note the slide switch.  I put it on the wrong side … doh!  It interfered with the battery box a little, which — rather than putting the switch on the other side of the board — I filed the battery box a little to make it fit.  Doh!</p><p>The LEDs point up the board, allowing the solder connections to reflect the light to produce an interesting pattern when the device is on.</p><figure class=center><img sizes="(min-width: 35em) 1200px, 100vw" srcset src=/2014/02/02/betheremin-0-1/20140202_172345_hub7d8427db2b609e03073d078077b10c7_25110_1200x0_resize_q75_box.jpg alt></figure><p>Overall, it looks like this:</p><figure class=center><img sizes="(min-width: 35em) 1200px, 100vw" srcset src=/2014/02/02/betheremin-0-1/20140202_172330_hue4721a6a7b9053733bae5acab5f4426a_21953_1200x0_resize_q75_box.jpg alt></figure><p>After some fairly tweaky calibration you can control the pitch from about 12 inches away.  If you are grounded well, then this works even better and you get more range.  It produces a mostly sawy sine wave (pretty much an RC oscillator sort of curve really, not surprisingly).  I did try to put a RC low pass filter on the output (by putting a 1uF cap between the output and ground) to see if that&rsquo;d make the output more siney — but unfortunately it did attenuate the output rather significantly at the frequencies we were interested in (between 0 and 1500Hz ish).</p><p><strong>Revisions</strong></p><p>In REV 0.2, if I make another one, some things to note:</p><ul><li>Put the slide switch on the right side :p</li><li>Make RV1, the calibration trim pot, multiturn as the single turn one was very tweaky to adjust</li><li>Make the thermals thinner and the pads bigger (desoldering is a pain otherwise!)</li><li>Increase the spacing between the 0805 resistors</li><li>Don&rsquo;t put anything under the battery box 🙂</li><li>Make the holes to mount the battery box big enough to clear a No 3. self tapping screw, so the box can be secured to the PCB properly.</li><li>Increase the tolerances on the PCB borders so it&rsquo;ll fit without needing filing!</li></ul><p>Future enhancements:</p><ul><li>Put a proper amplifier on the output, with gain control</li><li>Provide a volume control</li><li>Break out PWM output to control other things.</li><li>Generate MIDI/OSC messages over USB?!</li></ul><p>Overall this was quite a fun little project, and something I&rsquo;ve not done for quite some time!  And immensely satisfying that not only is it complete and works well, but also that it&rsquo;s going to be used productively!</p></div><div class=pagination><div class=pagination__title><span class=pagination__title-h>Read other posts</span><hr></div><div class=pagination__buttons><span class="button previous"><a href=https://naxxfish.net/2014/03/19/pathfinderpc-http-json-api/><span class=button__icon>←</span>
-<span class=button__text>PathfinderPC HTTP JSON API</span></a></span></div></div></div></div><footer class=footer><div class=footer__inner><div class="copyright copyright--user"><span>Chris Roberts</span>
-<span>:: Theme made by <a href=https://twitter.com/panr>panr</a></span></div></div></footer><script src=https://naxxfish.net/assets/main.js></script>
+, /2014/02/02/betheremin-0-1/pcb_final_hub43e139f562298f24133945de6ca01cf_54290_1200x0_resize_box_3.png 1200w" src=/2014/02/02/betheremin-0-1/pcb_final_hub43e139f562298f24133945de6ca01cf_54290_1200x0_resize_box_3.png alt>
+<figcaption class=center>The final PCB layout in KiCAD</figcaption>
+</figure>
+<p>There&rsquo;s a power slide switch at the top side, which looks like it&rsquo;s going to interfere with the battery box!  But, I thought, why not put that on the other side of the board, since it&rsquo;ll work exactly the same.  Remember that ….</p>
+<p>The “bottom” side of the board, is actually the side that&rsquo;s going to be facing upwards in the box.  This means all the components are on the open side of the board, except the LEDs and the potentiometer.  I didn&rsquo;t want there to be silkscreen on the side facing upwards, so I put the markings (the <code>Betheremin</code> text) in the copper layer, and peeled back the solder mask — which once the board has been through the gold flashing process gives a nice gold text 🙂</p>
+<p>So, PCB design, I needed to get them produced.  I had a few options, but I had previously used BatchPCB to great success.  Thus, I decided to try out it&rsquo;s successor, <a href=http://oshpark.com/>OSHPark</a>.  They accept Eagle files (no faffing around with Gerbers, yay!) and they give you a great automated preview when you upload your design files.  I was kept informed throughout the process, from sending them to the fab house to sending the boards back to me.  The price was very reasonable, and considering the boards were shipped to me in the UK from the USA, came pretty quickly.  Also the packaging, like the PCBs, is awesomely purple 🙂 I will definitely be using them again!</p>
+<p>This is what I was shipped from OSHPark:</p>
+<figure class=center>
+<img sizes="(min-width: 35em) 1200px, 100vw" srcset src=/2014/02/02/betheremin-0-1/20140130_102956_hub9409e5607ac10d7f9275329f333619c_20173_1200x0_resize_q75_box.jpg alt>
+<figcaption class=center>Beautiful purple PCB goodness</figcaption>
+</figure>
+<p>Gorgeous!  I&rsquo;m very pleased with the quality.  The routing is very smooth, the soldermask is very consistent. The registration on the silkscreen was a little off, but that&rsquo;s to be expected really.</p>
+<p>After a little filing around the edges to make up for the snap sprues, and the slightly tight tolerances around the curved corners, it fit into the box perfectly!</p>
+<p>Some soldering later:</p>
+<figure class=center>
+<img sizes="(min-width: 35em) 1200px, 100vw" srcset src=/2014/02/02/betheremin-0-1/20140202_182432_hue2ddc39f803ac3021bcd2129432f2d0a_36661_1200x0_resize_q75_box.jpg alt>
+</figure>
+<p>In this side shot, you can see how the hex-spacer works to let you screw the antenna into the lid, and where the pot is attached to the board on it&rsquo;s back.</p>
+<figure class=center>
+<img sizes="(min-width: 35em) 1200px, 100vw" srcset="/2014/02/02/betheremin-0-1/20140202_182459_hua659f0f2baad20d84332b4faaf7a58f1_66959_500x0_resize_q75_box.jpg 500w
+, /2014/02/02/betheremin-0-1/20140202_182459_hua659f0f2baad20d84332b4faaf7a58f1_66959_800x0_resize_q75_box.jpg 800w" src=/2014/02/02/betheremin-0-1/20140202_182459_hua659f0f2baad20d84332b4faaf7a58f1_66959_1200x0_resize_q75_box.jpg alt>
+</figure>
+<figure class=center>
+<img sizes="(min-width: 35em) 1200px, 100vw" srcset="/2014/02/02/betheremin-0-1/20140202_182511_hu30a6e995d49dc9006598afca9754bb55_65522_500x0_resize_q75_box.jpg 500w
+, /2014/02/02/betheremin-0-1/20140202_182511_hu30a6e995d49dc9006598afca9754bb55_65522_800x0_resize_q75_box.jpg 800w" src=/2014/02/02/betheremin-0-1/20140202_182511_hu30a6e995d49dc9006598afca9754bb55_65522_1200x0_resize_q75_box.jpg alt>
+</figure>
+<p>The pot was secured to the PCB using normal self adhesive pads — mainly just to stop it putting strain on the pads.  The shaft on the pot could do with being a little shorter — so that the knob doesn&rsquo;t float quite so far away from the panel.</p>
+<p>Note the slide switch.  I put it on the wrong side … doh!  It interfered with the battery box a little, which — rather than putting the switch on the other side of the board — I filed the battery box a little to make it fit.  Doh!</p>
+<p>The LEDs point up the board, allowing the solder connections to reflect the light to produce an interesting pattern when the device is on.</p>
+<figure class=center>
+<img sizes="(min-width: 35em) 1200px, 100vw" srcset src=/2014/02/02/betheremin-0-1/20140202_172345_hub7d8427db2b609e03073d078077b10c7_25110_1200x0_resize_q75_box.jpg alt>
+</figure>
+<p>Overall, it looks like this:</p>
+<figure class=center>
+<img sizes="(min-width: 35em) 1200px, 100vw" srcset src=/2014/02/02/betheremin-0-1/20140202_172330_hue4721a6a7b9053733bae5acab5f4426a_21953_1200x0_resize_q75_box.jpg alt>
+</figure>
+<p>After some fairly tweaky calibration you can control the pitch from about 12 inches away.  If you are grounded well, then this works even better and you get more range.  It produces a mostly sawy sine wave (pretty much an RC oscillator sort of curve really, not surprisingly).  I did try to put a RC low pass filter on the output (by putting a 1uF cap between the output and ground) to see if that&rsquo;d make the output more siney — but unfortunately it did attenuate the output rather significantly at the frequencies we were interested in (between 0 and 1500Hz ish).</p>
+<p><strong>Revisions</strong></p>
+<p>In REV 0.2, if I make another one, some things to note:</p>
+<ul>
+<li>Put the slide switch on the right side :p</li>
+<li>Make RV1, the calibration trim pot, multiturn as the single turn one was very tweaky to adjust</li>
+<li>Make the thermals thinner and the pads bigger (desoldering is a pain otherwise!)</li>
+<li>Increase the spacing between the 0805 resistors</li>
+<li>Don&rsquo;t put anything under the battery box 🙂</li>
+<li>Make the holes to mount the battery box big enough to clear a No 3. self tapping screw, so the box can be secured to the PCB properly.</li>
+<li>Increase the tolerances on the PCB borders so it&rsquo;ll fit without needing filing!</li>
+</ul>
+<p>Future enhancements:</p>
+<ul>
+<li>Put a proper amplifier on the output, with gain control</li>
+<li>Provide a volume control</li>
+<li>Break out PWM output to control other things.</li>
+<li>Generate MIDI/OSC messages over USB?!</li>
+</ul>
+<p>Overall this was quite a fun little project, and something I&rsquo;ve not done for quite some time!  And immensely satisfying that not only is it complete and works well, but also that it&rsquo;s going to be used productively!</p>
+</div>
+<div class=pagination>
+<div class=pagination__title>
+<span class=pagination__title-h>Read other posts</span>
+<hr>
+</div>
+<div class=pagination__buttons>
+<span class="button previous">
+<a href=https://naxxfish.net/2014/03/19/pathfinderpc-http-json-api/>
+<span class=button__icon>←</span>
+<span class=button__text>PathfinderPC HTTP JSON API</span>
+</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<div class="copyright copyright--user">
+<span>Chris Roberts</span>
+<span>:: Theme made by <a href=https://twitter.com/panr>panr</a></span>
+</div>
+</div>
+</footer>
+<script src=https://naxxfish.net/assets/main.js></script>
 <script src=https://naxxfish.net/assets/prism.js></script>
-<script type=text/javascript src=https://ko-fi.com/widgets/widget_2.js></script><script type=text/javascript>kofiwidget2.init("Buy me a coffee","#23B0FF","R6R418B52"),kofiwidget2.draw()</script>
-<a rel=me href=https://mastodon.technology/@naxxfish>Mastodon</a></div></body></html>
+<script type=text/javascript src=https://ko-fi.com/widgets/widget_2.js></script><script type=text/javascript>kofiwidget2.init('Buy me a coffee','#23B0FF','R6R418B52'),kofiwidget2.draw()</script>
+<a rel=me href=https://mastodon.technology/@naxxfish>Mastodon</a>
+</div>
+</body>
+</html>

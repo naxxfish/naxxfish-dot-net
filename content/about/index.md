@@ -34,7 +34,7 @@ Nice to meet you! I'm from London, UK &ndash; which is where I presently live. I
 
 * My site icon is a [modified emoji 1f40b (🐋)</span>][11]
 
-* I prefer [decentralised social media](https://mas.to/@naxxfish)
+* I prefer [decentralised social media](https://joinmastodon.org/)
 
 * I enjoy a good list (evidently)
 
@@ -46,8 +46,6 @@ Nice to meet you! I'm from London, UK &ndash; which is where I presently live. I
   * Being accountable for the products you build.
   * Empowering users to achieve their goals, rather than mollycoddling them and making decisions for them.
   * Harnessing creative chaos where it's useful, but limiting it when it's not.
-
-* I work for [Media Molecule](https://www.mediamolecule.com/), as a Principle DevOps Engineer.
 
 * This 'blog' catalogues my various personal analyses and opinions of things that I find interesting, or projects I've undertaken.  
 

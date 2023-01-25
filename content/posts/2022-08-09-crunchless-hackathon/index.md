@@ -10,6 +10,8 @@ draft: false
 
 [Hackathons](https://en.wikipedia.org/wiki/Hackathon) or Hackdays or "Innovation Days" or whatever you want to call them have been a mainstay in tech for a while now. Sometimes, they're seen as a simple "fix" for an organisation that's lacking innovation (**spoiler**: that's not how they work). But, just so we're all on the same page:
 
+  <!--more-->
+
 > A Hackathon is a time limited sprint where (primarily) software is created
 
 I've been purposely vauge here - but I think this definition encompasses most things that someone would call a "Hackathon".

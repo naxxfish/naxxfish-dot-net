@@ -1,5 +1,6 @@
 ---
-title: about
+title: About Me
+uri: /about/
 author: naxxfish
 type: page
 date: 2014-01-21T21:11:55+00:00
@@ -9,7 +10,7 @@ sharing_disabled:
 ---
 **👋🏻 Hi, I'm Chris.**
 
-Nice to meet you! I'm from London, UK &ndash; which is where I presently live. I work for [Media Molecule](https://www.mediamolecule.com/). 
+Nice to meet you! I'm from London, UK &ndash; which is where I presently live. I work for [Media Molecule](https://www.mediamolecule.com/).
 
 * I'm a [photographer][1], and have published a [series of zines about phone boxes](https://parallaxphotographic.coop/shop/chris-roberts-kiosk-volumes-1-and-2/).
 
@@ -36,6 +37,19 @@ Nice to meet you! I'm from London, UK &ndash; which is where I presently live. I
 * I prefer [decentralised social media](https://mas.to/@naxxfish)
 
 * I enjoy a good list (evidently)
+
+* I believe in
+
+  * Ethical, appropriate and sensible application of big data and ML.
+  * Taking a pragmatic approach to automated testing (test coverage isn't everything).
+  * Designing systems that minimise carbon emissions and energy usage during their operational life.
+  * Being accountable for the products you build.
+  * Empowering users to achieve their goals, rather than mollycoddling them and making decisions for them.
+  * Harnessing creative chaos where it's useful, but limiting it when it's not.
+
+* I work for [Media Molecule](https://www.mediamolecule.com/), as a Principle DevOps Engineer.
+
+* This 'blog' catalogues my various personal analyses and opinions of things that I find interesting, or projects I've undertaken.  
 
  [1]: https://naxxfish.photography
  [2]: https://github.com/naxxfish/

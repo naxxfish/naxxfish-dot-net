@@ -1,0 +1,103 @@
+baseURL: "https://www.naxxfish.net"
+title: naxxfish
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+outputs:
+  home:
+      - HTML
+      - RSS
+      - JSON
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  cover:
+    image: /images/naxxfish-portrait/16x9/naxxfish-portrait.png
+    responsiveImages: true
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: naxxfish
+  description: "software systems engineer"
+  keywords: [Blog]
+  author: naxxfish
+  # author: ["Me", "You"] # multiple authors
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "https://naxxfish.net/cropped-siteicon.png"
+
+  label:
+    text: "naxxfish"
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: Hi! I'm Chris 👋
+    Content: |
+      Welcome to my blog, where I write about various things I find interesting - and perhaps you might find interesting too.
+
+      You can talk to me on <a rel="me" href="https://peoplemaking.games/@naxxfish">Mastodon</a>
+
+  socialIcons:
+    - name: mastodon
+      url: "https://peoplemaking.games/naxxfish"
+    - name: github
+      url: "https://github.com/naxxfish"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 40
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 20
+    - identifier: photography
+      name: my photography
+      url: https://naxxfish.photography/
+      weight: 30
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai

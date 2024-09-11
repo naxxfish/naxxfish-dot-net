@@ -63,11 +63,7 @@ params:
     Content: |
       Welcome to my blog, where I write about various things I find interesting - and perhaps you might find interesting too.
 
-      You can talk to me on <a rel="me" href="https://peoplemaking.games/@naxxfish">Mastodon</a>
-
   socialIcons:
-    - name: mastodon
-      url: "https://peoplemaking.games/naxxfish"
     - name: github
       url: "https://github.com/naxxfish"
 
@@ -86,11 +82,6 @@ menu:
       name: about
       url: /about/
       weight: 20
-    - identifier: photography
-      name: my photography
-      url: https://naxxfish.photography/
-      weight: 30
-
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

@@ -3,3 +3,4 @@ dist
 resources
 **.DS_Store
 wrangler.toml
+.hugo_build.lock

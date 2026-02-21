@@ -24,7 +24,7 @@ params:
   cover:
     image: /images/naxxfish-portrait/16x9/naxxfish-portrait.png
     responsiveImages: true
-    hidden: true # hide everywhere but not in structured data
+    hidden: false
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
   title: naxxfish
@@ -36,6 +36,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+
 
   ShowReadingTime: false
   ShowShareButtons: false
@@ -71,6 +72,10 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/naxxfish"
+    - name: bluesky
+      url: "https://bsky.app/profile/naxxfish.bsky.social"
+    - name: mastodon
+      url: "https://peoplemaking.games/@naxxfish"
 
 
 menu:

@@ -12,17 +12,17 @@ sharing_disabled:
 
 Nice to meet you! I'm from London, UK &ndash; which is where I presently live. I work for [Media Molecule](https://www.mediamolecule.com/).
 
-* I'm a [photographer][1], and have published a [series of zines about phone boxes](https://parallaxphotographic.coop/shop/chris-roberts-kiosk-volumes-1-and-2/).
+* I'm a photographer, and published a [series of zines about phone boxes](https://parallaxphotographic.coop/shop/chris-roberts-kiosk-volumes-1-and-2/).
 
-* I [code][2] for a living.
+* I code for a living.
 
 * I sometimes build electronics for fun.
 
 * I hold a UK Amateur Radio Operator License, callsign M7NXF.
 
-* I'm the owner of both a beard, and a ponytail.
+* I'm the owner of both a beard, and sometimes a ponytail.
 
-* You'd ordinarily frequently find me at [An Evening of Unnecessary Detail][3]. Because I don't get enough of unnecessary detail during the day, apparently.
+* You might find me at [An Evening of Unnecessary Detail][3]. Because I don't get enough of unnecessary detail during the day, apparently.
 
 * I once helped (at least, mostly helped) [Matt Parker][4] [build a computer out of Dominos][5] (you can see me at [3:14][6])
 
@@ -49,8 +49,6 @@ Nice to meet you! I'm from London, UK &ndash; which is where I presently live. I
 
 * This 'blog' catalogues my various personal analyses and opinions of things that I find interesting, or projects I've undertaken.  
 
- [1]: https://naxxfish.photography
- [2]: https://github.com/naxxfish/
  [3]: https://aeoud.com/
  [4]: https://standupmaths.com/
  [5]: https://youtu.be/OpLU__bhu2w
